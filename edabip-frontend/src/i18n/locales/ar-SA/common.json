@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "الصفحة الرئيسية لـ EDABIP"
+  },
+  "navbar": {
+    "home": "الرئيسية",
+    "features": "الميزات",
+    "dashboard": "لوحة التحكم",
+    "services": "الخدمات",
+    "pricing": "الأسعار",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "openMenu": "فتح قائمة التنقل",
+    "closeMenu": "إغلاق قائمة التنقل",
+    "mainNav": "التنقل الرئيسي"
+  },
+  "actions": {
+    "getStarted": "ابدأ الآن",
+    "learnMore": "اعرف المزيد",
+    "bookDemo": "احجز عرضًا توضيحيًا",
+    "startTrial": "ابدأ تجربة مجانية",
+    "subscribe": "الاشتراك في النشرة",
+    "loading": "جارٍ التحميل…",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "continue": "متابعة",
+    "back": "رجوع",
+    "close": "إغلاق"
+  },
+  "language": {
+    "selectorLabel": "اللغة",
+    "selectorAria": "اختيار اللغة، اللغة الحالية {{code}}",
+    "menuLabel": "اللغات المتاحة",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "محدد"
+  },
+  "footer": {
+    "description": "نمكّن الشركات بالبيانات والتحليلات والذكاء الاصطناعي لدفع النمو والابتكار.",
+    "platform": "المنصة",
+    "solutions": "الحلول",
+    "resources": "الموارد",
+    "newsletter": "النشرة الإخبارية",
+    "newsletterBlurb": "ابقَ على اطلاع بأحدث الرؤى والتحديثات.",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "copyright": "© {{year}} EDABIP. جميع الحقوق محفوظة.",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "platformLinks": {
+      "dataIntegration": "تكامل البيانات",
+      "dataWarehouse": "مستودع البيانات",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "تحليلات الذكاء الاصطناعي"
+    },
+    "solutionLinks": {
+      "sales": "تحليلات المبيعات",
+      "financial": "التحليلات المالية",
+      "operations": "تحليلات العمليات",
+      "marketing": "تحليلات التسويق",
+      "aiInsights": "رؤى الذكاء الاصطناعي"
+    },
+    "resourceLinks": {
+      "documentation": "الوثائق",
+      "caseStudies": "دراسات الحالة",
+      "blog": "المدونة",
+      "webinars": "الندوات",
+      "support": "مركز الدعم"
+    },
+    "social": {
+      "x": "EDABIP على X",
+      "linkedin": "EDABIP على LinkedIn",
+      "youtube": "EDABIP على YouTube",
+      "instagram": "EDABIP على Instagram"
+    },
+    "aria": {
+      "platform": "روابط المنصة",
+      "solutions": "روابط الحلول",
+      "resources": "روابط الموارد"
+    }
+  },
+  "states": {
+    "loading": "جارٍ التحميل…",
+    "empty": "لا يوجد محتوى للعرض بعد.",
+    "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+  }
+}

@@ -1,0 +1,189 @@
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# =============================================================================
+# EDABIP monorepo .gitignore
+# Frontend: Vite + React (npm)  |  Backend: FastAPI + SQLAlchemy + Alembic
+# Deploy: Vercel (edabip-frontend/dist)  |  DB: MySQL via PyMySQL
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Secrets & local environment
+# Keep committed templates (*.env.example). Ignore all real env files.
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!**/.env.example
+!.env.settings.example
+
+# Credentials, keys, and local secret material
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials.json
+*-credentials.json
+*credentials*.json
+service-account*.json
+*serviceAccount*.json
+*.secret
+secrets/
+.secrets/
+
+# -----------------------------------------------------------------------------
+# Operating systems
+# -----------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*~
+
+# -----------------------------------------------------------------------------
+# IDEs & editors
+# Keep shared VS Code / Cursor project config; ignore personal workspace state.
+# -----------------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+*.userosscache
+
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+
+# -----------------------------------------------------------------------------
+# Local AI / design tooling (not application source)
+# -----------------------------------------------------------------------------
+.anima/
+.kombai/
+.agents/
+.codex-tmp/
+**/.codex-tmp/
+
+# Agent visual-QA screenshots dropped at frontend root (not product assets)
+edabip-frontend/scale-polish-*.png
+
+# -----------------------------------------------------------------------------
+# Logs & temporary files
+# -----------------------------------------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.temp
+*.bak
+*.orig
+*.pid
+*.seed
+
+# -----------------------------------------------------------------------------
+# Frontend — Node / Vite / React / Playwright / ESLint
+# Keep: package.json, package-lock.json, public/, src/, vite.config.js
+# -----------------------------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+*.local
+.vercel/
+
+# Test / coverage output (node:test, Playwright, future coverage tools)
+coverage/
+.nyc_output/
+playwright-report/
+blob-report/
+test-results/
+playwright/.cache/
+
+# -----------------------------------------------------------------------------
+# Backend — Python / FastAPI / SQLAlchemy / Alembic
+# Keep: requirements.txt, alembic.ini, alembic/ migration scripts, source
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments (local: edabip-backend/venv)
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# Packaging / install artifacts
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Test / type / lint caches & coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# Local databases & runtime data (MySQL is external; ignore accidental local DBs)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Runtime uploads / media referenced by API (/uploads/)
+uploads/
+media/
+edabip-backend/uploads/
+edabip-backend/media/
+
+# Local instance / debug dumps
+instance/
+*.stackdump
+

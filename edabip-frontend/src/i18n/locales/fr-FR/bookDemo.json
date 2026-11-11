@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "COMMENCER",
+    "titleMain": "Réserver une",
+    "titleAccent": "Démo",
+    "subtitle": "Découvrez comment EDABIP peut vous aider à optimiser vos opérations, obtenir des informations en temps réel et améliorer vos résultats.",
+    "points": {
+      "personalized": "Visite personnalisée",
+      "session": "Session de 15 à 30 minutes",
+      "commitment": "Aucun engagement"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "Planifiez votre démo",
+      "subtitle": "Remplissez le formulaire et notre équipe vous contactera pour confirmer votre démo"
+    },
+    "fields": {
+      "fullName": "Nom complet",
+      "workEmail": "E-mail professionnel",
+      "phoneNumber": "Numéro de téléphone",
+      "jobTitle": "Intitulé du poste",
+      "companyName": "Nom de l'entreprise",
+      "hearAboutUs": "Comment avez-vous entendu parler de nous ?",
+      "preferredDate": "Date souhaitée",
+      "preferredTime": "Heure souhaitée",
+      "message": "Message (facultatif)"
+    },
+    "placeholders": {
+      "fullName": "Entrez votre nom",
+      "workEmail": "Entrez votre e-mail",
+      "phoneNumber": "Entrez votre numéro de téléphone",
+      "jobTitle": "Entrez votre intitulé de poste",
+      "companyName": "Entrez le nom de votre entreprise",
+      "hearAboutUs": "Sélectionner une option",
+      "preferredDate": "Sélectionner une date",
+      "preferredTime": "Sélectionner une heure",
+      "message": "Parlez-nous de vos besoins..."
+    },
+    "hearAboutUsOptions": {
+      "google": "Recherche Google",
+      "social": "Réseaux sociaux",
+      "referral": "Recommandation",
+      "blog": "Blog / Article",
+      "event": "Événement / Webinaire",
+      "other": "Autre"
+    },
+    "validation": {
+      "fullNameRequired": "Le nom complet est requis.",
+      "workEmailRequired": "L'e-mail professionnel est requis.",
+      "emailInvalid": "Entrez une adresse e-mail valide.",
+      "phoneRequired": "Le numéro de téléphone est requis.",
+      "phoneInvalid": "Entrez un numéro de téléphone valide.",
+      "companyRequired": "Le nom de l'entreprise est requis."
+    },
+    "submit": "Réserver la démo",
+    "submitting": "Réservation en cours...",
+    "safeNote": "Vos informations sont en sécurité avec nous. Nous ne partageons jamais vos données.",
+    "supportNote": "Besoin d'aide ? Contactez notre",
+    "supportLink": "support informatique"
+  },
+  "success": {
+    "title": "Merci — tout est prêt !",
+    "text": "Nous avons bien reçu votre demande et vous contacterons prochainement pour confirmer votre démo."
+  }
+}

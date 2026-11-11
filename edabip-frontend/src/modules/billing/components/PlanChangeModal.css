@@ -1,0 +1,46 @@
+/*
+ * Only the plan summary block lives here. Everything else in the dialog —
+ * backdrop, card, header, alert, buttons — comes from PaymentMethodModal.css.
+ */
+
+.bl-plan-confirm__summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 16px;
+  background: #f8fafa;
+  border: 1px solid #e2e8e8;
+  border-radius: 8px;
+}
+
+.bl-plan-confirm__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.bl-plan-confirm__row dt {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #4b5563;
+}
+
+.bl-plan-confirm__row dd {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+  text-align: right;
+  word-break: break-word;
+}
+
+.bl-plan-confirm__cadence {
+  margin-left: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4b5563;
+}

@@ -1,0 +1,176 @@
+.upm-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(15, 23, 23, 0.45);
+}
+
+.upm-card {
+  position: relative;
+  inset: auto;
+  margin: 0;
+  border: none;
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 18px 40px rgba(15, 23, 23, 0.22);
+  box-sizing: border-box;
+}
+
+.upm-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.upm-header-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-right: 12px;
+  min-width: 0;
+}
+
+.upm-title {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111111;
+}
+
+.upm-subtitle {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #4b5563;
+}
+
+.upm-close {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  margin: -6px -8px 0 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #6b7280;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.upm-close:hover,
+.upm-close:focus-visible {
+  color: #111827;
+}
+
+.upm-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px 16px;
+  background: #f3f3f3;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+}
+
+.upm-alert-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  margin-top: 1px;
+}
+
+.upm-alert-copy {
+  min-width: 0;
+}
+
+.upm-alert-title {
+  margin: 0 0 4px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #111111;
+}
+
+.upm-alert-body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #4b5563;
+}
+
+.upm-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.upm-btn {
+  min-height: 40px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.upm-btn--ghost {
+  background: #ffffff;
+  border: 1.5px solid #0f4c4c;
+  color: #0f4c4c;
+}
+
+.upm-btn--ghost:hover,
+.upm-btn--ghost:focus-visible {
+  background: #f4fafa;
+}
+
+.upm-btn--solid {
+  background: #0f4c4c;
+  border: 1.5px solid #0f4c4c;
+  color: #ffffff;
+}
+
+.upm-btn--solid:hover,
+.upm-btn--solid:focus-visible {
+  background: #0c3d3d;
+}
+
+@media (max-width: 640px) {
+  .upm-card {
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+  .upm-title {
+    font-size: 20px;
+  }
+
+  .upm-actions {
+    flex-direction: column-reverse;
+  }
+
+  .upm-btn {
+    width: 100%;
+  }
+}

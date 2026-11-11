@@ -1,0 +1,53 @@
+.pa-root {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.pa-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  background: #eef0f0;
+}
+
+/* Centers the badge exactly on the avatar circle's edge at its bottom-right
+   45° point, so half the badge overlaps the round photo and half sits
+   outside it. The circle's edge at 45° sits (1-cos45)/2 ≈ 14.64% of the
+   avatar's size in from the corner, then the badge's own half-size (16.5px)
+   is subtracted so the badge is centered on that exact point. */
+.pa-camera-btn {
+  position: absolute;
+  right: calc(14.64% - 16.5px);
+  bottom: calc(14.64% - 16.5px);
+  width: 33px;
+  height: 33px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.pa-camera-btn__circle {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pa-camera-btn__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pa-file-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}

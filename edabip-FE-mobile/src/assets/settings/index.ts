@@ -1,0 +1,27 @@
+import type { ImageSourcePropType } from 'react-native';
+
+export const ChevronDownIcon: ImageSourcePropType = require('./png/chevron-down.png');
+export const ChevronRightIcon: ImageSourcePropType = require('./png/chevron-right.png');
+export const EditIcon: ImageSourcePropType = require('./png/edit-icon.png');
+export const GoogleAnalyticsIcon: ImageSourcePropType = require('./png/google-analytics.png');
+export const MatrixAnalyticsIcon: ImageSourcePropType = require('./png/matrix-analytics.png');
+export const MatrixBillingIcon: ImageSourcePropType = require('./png/matrix-billing.png');
+export const MatrixCheckIcon: ImageSourcePropType = require('./png/matrix-check.png');
+export const MatrixCloseIcon: ImageSourcePropType = require('./png/matrix-close.png');
+export const MatrixDashboardIcon: ImageSourcePropType = require('./png/matrix-dashboard.png');
+export const MatrixPowerBiIcon: ImageSourcePropType = require('./png/matrix-powerbi.png');
+export const MatrixReportsIcon: ImageSourcePropType = require('./png/matrix-reports.png');
+export const MatrixSettingsIcon: ImageSourcePropType = require('./png/matrix-settings.png');
+export const MatrixTableauIcon: ImageSourcePropType = require('./png/matrix-tableau.png');
+export const MatrixUsersIcon: ImageSourcePropType = require('./png/matrix-users.png');
+export const MicrosoftTeamsIcon: ImageSourcePropType = require('./png/microsoft-teams.png');
+export const RoleAdminIcon: ImageSourcePropType = require('./png/role-admin.png');
+export const RoleAnalystIcon: ImageSourcePropType = require('./png/role-analyst.png');
+export const RoleEditorIcon: ImageSourcePropType = require('./png/role-editor.png');
+export const RoleViewerIcon: ImageSourcePropType = require('./png/role-viewer.png');
+export const SalesforceIcon: ImageSourcePropType = require('./png/salesforce.png');
+export const SearchClearIcon: ImageSourcePropType = require('./png/search-clear.png');
+export const SearchFieldIcon: ImageSourcePropType = require('./png/search-field.png');
+export const SlackIcon: ImageSourcePropType = require('./png/slack.png');
+export const UsersIcon: ImageSourcePropType = require('./png/users.png');
+export const ViewIcon: ImageSourcePropType = require('./png/view-icon.png');

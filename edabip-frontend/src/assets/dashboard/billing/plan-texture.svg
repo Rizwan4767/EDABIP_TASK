@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="522.023" height="241.436" viewBox="0 0 522.023 241.436" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group" opacity="0.7">
+<mask id="mask0_0_4" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="523" height="242">
+<g id="pixels">
+<g id="texture">
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_0_4)">
+<ellipse id="Ellipse 1507" opacity="0.8" cx="240.012" cy="101.142" rx="366.721" ry="149.429" fill="url(#paint0_radial_0_4)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240.012 101.142) rotate(90) scale(149.429 366.721)">
+<stop stop-color="#68FFBE"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,215 @@
+{
+  "header": {
+    "tryNow": "Registrieren"
+  },
+  "hero": {
+    "eyebrow": "EDABIP Plattformkategorien",
+    "pills": {
+      "data": "Datenverarbeitung",
+      "ai": "KI-Analyseplattform",
+      "visualization": "Visualisierte Erkenntnisse"
+    },
+    "title": "Unternehmensdaten werden<br />zu <accent>intelligenten</accent> Entscheidungen",
+    "description": "Vereinen Sie Unternehmensdaten, Analytics und KI, um mit einer einzigen intelligenten Plattform schnellere und klügere Geschäftsentscheidungen zu treffen.",
+    "login": "Anmelden",
+    "getStarted": "Jetzt starten",
+    "proofAria": "Vorteile der Plattform",
+    "proof": {
+      "monitoring": "KPI-Überwachung in Echtzeit",
+      "processing": "Datenverarbeitung für Unternehmen",
+      "security": "Sicher by Design"
+    },
+    "visualAlt": "Vernetzte Unternehmensdaten, die durch EDABIP fließen"
+  },
+  "platform": {
+    "title": "Plattformübersicht",
+    "subtitle": "Alles, was Sie brauchen, um Ihr Unternehmen intelligenter und schneller zu machen",
+    "previous": "Vorherige Plattformphase anzeigen",
+    "next": "Nächste Plattformphase anzeigen",
+    "stages": {
+      "centralized": {
+        "title": "Daten verbinden",
+        "text": "Integrieren Sie Daten aus ERP, CRM, HRMS, Finanzwesen, APIs, Cloud-Plattformen und Datenbanken in ein einheitliches Analyse-Ökosystem.",
+        "panelTitle": "Datenquellen",
+        "items": {
+          "i1": "Über 100 Datenkonnektoren",
+          "i2": "Cloud & On-Premise",
+          "i3": "Datensynchronisation in Echtzeit",
+          "i4": "API-Integration",
+          "i5": "Sichere Verbindungen"
+        }
+      },
+      "process": {
+        "title": "Aufbereiten & transformieren",
+        "text": "Bereinigen, validieren, anreichern und transformieren Sie Rohdaten mit leistungsstarken ETL- und Datenverarbeitungs-Pipelines zu verlässlichen Datensätzen.",
+        "panelTitle": "Datenverarbeitung",
+        "items": {
+          "i1": "Datenbereinigung",
+          "i2": "Datenvalidierung",
+          "i3": "ETL-Pipelines",
+          "i4": "Datenanreicherung"
+        }
+      },
+      "visualize": {
+        "title": "Business Insights visualisieren",
+        "text": "Erstellen Sie interaktive Dashboards und überwachen Sie zentrale Geschäftskennzahlen mit leistungsstarker visueller Analytik und Management-Reporting.",
+        "panelTitle": "Analytics-Engine",
+        "items": {
+          "i1": "Interaktive Dashboards",
+          "i2": "KPI-Überwachung",
+          "i3": "Power BI",
+          "i4": "Tableau",
+          "i5": "Management-Reports"
+        }
+      },
+      "ai": {
+        "title": "KI-gestützte Analytik",
+        "text": "Nutzen Sie Predictive Analytics und maschinelles Lernen, um Trends zu prognostizieren, Anomalien zu erkennen und intelligente Empfehlungen zu generieren.",
+        "panelTitle": "KI-Funktionen",
+        "items": {
+          "i1": "Predictive Analytics",
+          "i2": "Trendprognosen",
+          "i3": "Anomalieerkennung",
+          "i4": "Intelligente Empfehlungen"
+        }
+      },
+      "collaborate": {
+        "title": "Zusammenarbeiten & automatisieren",
+        "text": "Teilen Sie Berichte, planen Sie automatisierte Dashboards, erhalten Sie Echtzeit-Benachrichtigungen und ermöglichen Sie teamübergreifende Zusammenarbeit.",
+        "panelTitle": "Werkzeuge für Zusammenarbeit",
+        "items": {
+          "i1": "Automatisierte Berichte",
+          "i2": "Intelligente Benachrichtigungen",
+          "i3": "Workflow-Automatisierung",
+          "i4": "Teamzusammenarbeit"
+        }
+      }
+    }
+  },
+  "modular": {
+    "title": "Modulares Ökosystem",
+    "subtitle": "Stärken Sie Ihre Teams mit leistungsstarken Modulen, die zu Ihren Geschäftsanforderungen passen. Präzise entwickelte Komponenten für den Betrieb auf Unternehmensniveau.",
+    "enterpriseCore": "Enterprise Core",
+    "configure": "Ansicht konfigurieren",
+    "lastGenerated": "Zuletzt erstellt vor 2 Std.",
+    "items": {
+      "dashboard": {
+        "title": "Dashboards",
+        "text": "Verschaffen Sie sich vollständige Transparenz über Ihr Unternehmen – mit interaktiven Dashboards, Echtzeit-Analysen und KI-gestützten Erkenntnissen. Überwachen Sie zentrale Leistungskennzahlen, erkennen Sie Trends und treffen Sie schnellere, datenbasierte Entscheidungen auf einer einzigen einheitlichen Plattform."
+      },
+      "reports": {
+        "title": "Berichte",
+        "text": "Automatisierte PDF- und XLS-Exporte für geplante Compliance- und Performance-Audits."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "text": "Deep-Dive-Engine für mehrdimensionale Datenexploration und Prognosetests. Nutzen Sie KI-gestützte Erkenntnisse, um verborgene Muster aufzudecken."
+      },
+      "alerts": {
+        "title": "Benachrichtigungen",
+        "text": "Intelligentes Benachrichtigungssystem mit Multi-Channel-Routing (Slack, SMS, E-Mail). Dank intelligenter Eskalation verpassen Sie keine kritische Schwellenwertüberschreitung."
+      },
+      "userManagement": {
+        "title": "Benutzerverwaltung",
+        "text": "Fortschrittliches SSO und Verzeichnissynchronisation für Organisationsstrukturen auf Unternehmensniveau – inklusive granularem RBAC und Audit-Logging."
+      }
+    }
+  },
+  "lifecycle": {
+    "eyebrow": "Kernarchitektur",
+    "title": "Der EDABIP-Lebenszyklus",
+    "subtitle": "Von Rohdaten zu umsetzbaren Erkenntnissen – durch einen präzise entwickelten Prozess für Unternehmensmaßstab.",
+    "phase": "Phase {{number}}",
+    "explore": "Algorithmen entdecken",
+    "tags": {
+      "api": "API-Konnektoren",
+      "etl": "ETL-Pipelines",
+      "ai": "KI-Integritätsschutz aktiv"
+    },
+    "steps": {
+      "dataCollection": {
+        "title": "Datenerfassung",
+        "text": "Erfassen Sie schnelllebige Datenströme aus verteilten Quellen wie IoT, CRM und historisch gewachsenen Datensilos."
+      },
+      "processData": {
+        "title": "Daten verarbeiten",
+        "text": "Verwandeln Sie Rohdaten mit der intelligenten Datenaufbereitungs-Engine von EDABIP in verlässliche Business Intelligence. Daten aus mehreren Unternehmensquellen werden automatisch bereinigt, validiert, normalisiert und angereichert, während Inkonsistenzen und Duplikate entfernt werden. Fortschrittliche ETL-Pipelines und Echtzeitverarbeitung sorgen dafür, dass jeder Datensatz korrekt, analysebereit und für Dashboards, Reporting und KI-gestützte Erkenntnisse optimiert ist."
+      },
+      "aiAnalysis": {
+        "title": "KI-Analyse",
+        "text": "Erschließen Sie tiefere Business Intelligence mit der KI-gestützten Analytics-Engine von EDABIP. Entdecken Sie verborgene Muster, prognostizieren Sie künftige Trends und erkennen Sie Anomalien mithilfe fortschrittlicher Machine-Learning- und Prognosemodelle. Verwandeln Sie komplexe Unternehmensdaten in umsetzbare Erkenntnisse für schnellere, klügere und sicherere Entscheidungen."
+      },
+      "visualizeInsights": {
+        "title": "Erkenntnisse visualisieren",
+        "text": "Verwandeln Sie komplexe Unternehmensdaten in intuitive, interaktive Dashboards für Entscheidungen auf Führungsebene. Visualisieren Sie zentrale Leistungskennzahlen, beobachten Sie Geschäftstrends und erkunden Sie Daten über anpassbare Diagramme, Grafiken und Berichte."
+      },
+      "businessDecisions": {
+        "title": "Geschäftsentscheidungen",
+        "text": "Befähigen Sie Teams zu schnelleren, klügeren und datenbasierten Entscheidungen."
+      }
+    }
+  },
+  "sovereignty": {
+    "title": "Kompromisslose <accent>Daten</accent>souveränität",
+    "description": "Schützen Sie Ihre Unternehmensintelligenz mit mehrschichtigen architektonischen Verteidigungssystemen. Wir bieten vollständige Transparenz und lückenlose Kontrolle über Ihre sensibelsten analytischen Werte.",
+    "explore": "Sicherheitsframework entdecken",
+    "docs": "Compliance-Dokumente ansehen",
+    "visualAlt": "Digitaler Schutzschild für weltweit vernetzte Unternehmensdaten"
+  },
+  "pillars": {
+    "title": "Die vier Säulen der Datensouveränität",
+    "subtitle": "Unsere Zero-Trust-Architektur stellt sicher, dass Ihre Daten Ihre Daten bleiben – von der Erfassung bis zur finalen Erkenntnis.",
+    "learnMore": "Mehr anzeigen",
+    "tags": {
+      "fido": "FIDO2 & BIOMETRIE-BEREIT",
+      "aes": "AES-256-STANDARD",
+      "permissions": "GRANULARE BERECHTIGUNGEN",
+      "blockchain": "BLOCKCHAIN-VERIFIZIERT"
+    },
+    "items": {
+      "mfa": {
+        "title": "MFA-Authentifizierung",
+        "text": "Identitätszentrierte Sicherheit mit Unterstützung für Biometrie und FIDO2-Hardware-Token an allen Endpunkten."
+      },
+      "encryption": {
+        "title": "E2EE-Verschlüsselung",
+        "text": "AES-256-Standards auf Militärniveau – angewendet auf ruhende und aktiv übertragene Daten."
+      },
+      "rbac": {
+        "title": "RBAC-Kontrolle",
+        "text": "Präzise attributbasierte Zugriffskontrolle (ABAC) bis auf die Ebene einzelner Zellen."
+      },
+      "audit": {
+        "title": "Unveränderliche Audit-Logs",
+        "text": "Manipulationssichere, blockchain-verifizierte Nachverfolgung jeder einzelnen Benutzer- und Systeminteraktion."
+      }
+    }
+  },
+  "footer": {
+    "ctaTitle": "Erkenntnisse für Entscheidungsträger",
+    "ctaDescription": "Schließen Sie sich über 25.000 BI-Fachleuten an, die unser wöchentliches Enterprise-Data-Briefing erhalten.",
+    "emailLabel": "Geschäftliche E-Mail-Adresse",
+    "emailPlaceholder": "Geschäftliche E-Mail-Adresse eingeben",
+    "subscribe": "Jetzt abonnieren",
+    "copyright": "© 2026 EDABIP. Plattform für Unternehmensdatenanalyse und Business Intelligence.",
+    "platform": "Plattform",
+    "solutions": "Lösungen",
+    "connect": "Kontakt",
+    "platformLinks": {
+      "overview": "Funktionen",
+      "modules": "Dashboard",
+      "lifecycle": "Integration",
+      "security": "Sicherheit"
+    },
+    "solutionLinks": {
+      "industry": "Nach Branche",
+      "function": "Nach Abteilung",
+      "useCases": "Anwendungsfälle",
+      "aiAnalytics": "KI-Analytics"
+    },
+    "contactLinks": {
+      "website": "Die EDABIP-Website besuchen",
+      "email": "Dem EDABIP-Team schreiben"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "EDABIP 首页"
+  },
+  "navbar": {
+    "home": "首页",
+    "features": "功能",
+    "dashboard": "仪表盘",
+    "services": "服务",
+    "pricing": "定价",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "login": "登录",
+    "signup": "注册",
+    "openMenu": "打开导航菜单",
+    "closeMenu": "关闭导航菜单",
+    "mainNav": "主导航"
+  },
+  "actions": {
+    "getStarted": "开始使用",
+    "learnMore": "了解更多",
+    "bookDemo": "预约演示",
+    "startTrial": "开始免费试用",
+    "subscribe": "订阅简报",
+    "loading": "加载中…",
+    "retry": "重试",
+    "cancel": "取消",
+    "save": "保存",
+    "continue": "继续",
+    "back": "返回",
+    "close": "关闭"
+  },
+  "language": {
+    "selectorLabel": "语言",
+    "selectorAria": "选择语言，当前语言 {{code}}",
+    "menuLabel": "可用语言",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "已选择"
+  },
+  "footer": {
+    "description": "我们通过数据、分析和人工智能赋能企业，推动增长与创新。",
+    "platform": "平台",
+    "solutions": "解决方案",
+    "resources": "资源",
+    "newsletter": "简报",
+    "newsletterBlurb": "及时了解最新洞察与更新。",
+    "emailLabel": "电子邮箱",
+    "emailPlaceholder": "输入您的邮箱",
+    "copyright": "© {{year}} EDABIP。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "platformLinks": {
+      "dataIntegration": "数据集成",
+      "dataWarehouse": "数据仓库",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "AI 分析"
+    },
+    "solutionLinks": {
+      "sales": "销售分析",
+      "financial": "财务分析",
+      "operations": "运营分析",
+      "marketing": "营销分析",
+      "aiInsights": "AI 洞察"
+    },
+    "resourceLinks": {
+      "documentation": "文档",
+      "caseStudies": "案例研究",
+      "blog": "博客",
+      "webinars": "网络研讨会",
+      "support": "支持中心"
+    },
+    "social": {
+      "x": "EDABIP 的 X",
+      "linkedin": "EDABIP 的 LinkedIn",
+      "youtube": "EDABIP 的 YouTube",
+      "instagram": "EDABIP 的 Instagram"
+    },
+    "aria": {
+      "platform": "平台链接",
+      "solutions": "解决方案链接",
+      "resources": "资源链接"
+    }
+  },
+  "states": {
+    "loading": "加载中…",
+    "empty": "暂无内容可显示。",
+    "error": "出错了。请重试。"
+  }
+}

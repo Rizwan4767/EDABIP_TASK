@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  text-align: start;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  font-family:
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Noto Sans Devanagari",
+    "Noto Sans JP",
+    "Noto Sans KR",
+    "Noto Sans SC",
+    "Noto Sans Arabic",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* RTL foundation — prefer logical properties app-wide; keep logos/charts unflipped. */
+[dir="rtl"] .landing-brand-logo,
+[dir="rtl"] .lv2-brand-logo,
+[dir="rtl"] .explore-brand-logo,
+[dir="rtl"] .footer-brand-logo img {
+  transform: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,215 @@
+{
+  "header": {
+    "tryNow": "注册"
+  },
+  "hero": {
+    "eyebrow": "EDABIP 平台分类",
+    "pills": {
+      "data": "数据处理",
+      "ai": "AI 分析平台",
+      "visualization": "洞察可视化"
+    },
+    "title": "将企业数据转化为<br /><accent>智能</accent>决策",
+    "description": "在同一个智能平台上统一企业数据、分析与 AI，帮助您更快、更明智地做出业务决策。",
+    "login": "登录",
+    "getStarted": "立即开始",
+    "proofAria": "平台优势",
+    "proof": {
+      "monitoring": "实时 KPI 监控",
+      "processing": "企业级数据处理",
+      "security": "安全始于设计"
+    },
+    "visualAlt": "在 EDABIP 中流动的互联企业数据"
+  },
+  "platform": {
+    "title": "平台概览",
+    "subtitle": "让您的业务更智能、更高效所需的一切",
+    "previous": "显示上一个平台阶段",
+    "next": "显示下一个平台阶段",
+    "stages": {
+      "centralized": {
+        "title": "连接您的数据",
+        "text": "将来自 ERP、CRM、HRMS、财务系统、API、云平台和数据库的数据整合到统一的分析生态中。",
+        "panelTitle": "数据源",
+        "items": {
+          "i1": "100+ 数据连接器",
+          "i2": "云端与本地部署",
+          "i3": "实时数据同步",
+          "i4": "API 集成",
+          "i5": "安全连接"
+        }
+      },
+      "process": {
+        "title": "准备与转换",
+        "text": "借助强大的 ETL 与数据处理流水线，对原始数据进行清洗、校验、增强，并转换为可靠的数据集。",
+        "panelTitle": "数据处理",
+        "items": {
+          "i1": "数据清洗",
+          "i2": "数据校验",
+          "i3": "ETL 流水线",
+          "i4": "数据增强"
+        }
+      },
+      "visualize": {
+        "title": "可视化业务洞察",
+        "text": "通过强大的可视化分析与管理层报表，创建交互式仪表板并监控关键业务指标。",
+        "panelTitle": "分析引擎",
+        "items": {
+          "i1": "交互式仪表板",
+          "i2": "KPI 监控",
+          "i3": "Power BI",
+          "i4": "Tableau",
+          "i5": "管理层报表"
+        }
+      },
+      "ai": {
+        "title": "AI 驱动的分析",
+        "text": "利用预测分析与机器学习预测趋势、检测异常并生成智能建议。",
+        "panelTitle": "AI 功能",
+        "items": {
+          "i1": "预测分析",
+          "i2": "趋势预测",
+          "i3": "异常检测",
+          "i4": "智能建议"
+        }
+      },
+      "collaborate": {
+        "title": "协作与自动化",
+        "text": "共享报表、定时推送自动化仪表板、接收实时告警，并实现跨团队协作。",
+        "panelTitle": "协作工具",
+        "items": {
+          "i1": "自动化报表",
+          "i2": "智能告警",
+          "i3": "工作流自动化",
+          "i4": "团队协作"
+        }
+      }
+    }
+  },
+  "modular": {
+    "title": "模块化生态",
+    "subtitle": "用契合业务需求的强大模块赋能团队。每个组件均为企业级运营精心打造。",
+    "enterpriseCore": "企业核心",
+    "configure": "配置视图",
+    "lastGenerated": "上次生成于 2 小时前",
+    "items": {
+      "dashboard": {
+        "title": "仪表板",
+        "text": "通过交互式仪表板、实时分析和 AI 驱动的洞察，全面掌握企业运营。监控关键绩效指标、发现业务趋势，并在统一平台上更快地做出数据驱动的决策。"
+      },
+      "reports": {
+        "title": "报表",
+        "text": "面向定期合规与绩效审计的 PDF 和 XLS 自动导出。"
+      },
+      "analytics": {
+        "title": "分析",
+        "text": "面向多维数据探索与预测测试的深度分析引擎。借助 AI 驱动的洞察发现隐藏规律。"
+      },
+      "alerts": {
+        "title": "告警",
+        "text": "支持多渠道分发（Slack、短信、邮件）的智能通知系统。智能升级机制确保关键阈值突破不被遗漏。"
+      },
+      "userManagement": {
+        "title": "用户管理",
+        "text": "面向企业级组织架构的高级 SSO 与目录同步，并内置细粒度 RBAC 和审计日志。"
+      }
+    }
+  },
+  "lifecycle": {
+    "eyebrow": "核心架构",
+    "title": "EDABIP 数据生命周期",
+    "subtitle": "通过为企业级规模精心设计的流程，将原始数据转化为可执行的洞察。",
+    "phase": "阶段 {{number}}",
+    "explore": "探索算法",
+    "tags": {
+      "api": "API 连接器",
+      "etl": "ETL 流水线",
+      "ai": "AI 完整性防护已启用"
+    },
+    "steps": {
+      "dataCollection": {
+        "title": "数据采集",
+        "text": "从物联网、CRM 和遗留数据孤岛等多个分布式来源采集高速数据流。"
+      },
+      "processData": {
+        "title": "数据处理",
+        "text": "借助 EDABIP 的智能数据准备引擎，将原始数据转化为可信的商业智能。系统会自动清洗、校验、标准化并增强来自多个企业系统的数据，同时消除不一致与重复项。先进的 ETL 流水线与实时处理确保每份数据集都准确、可直接用于分析，并针对仪表板、报表和 AI 洞察进行了优化。"
+      },
+      "aiAnalysis": {
+        "title": "AI 分析",
+        "text": "通过 EDABIP 的 AI 分析引擎挖掘更深层的商业智能。运用先进的机器学习与预测模型，发现隐藏规律、预测未来趋势并检测异常。将复杂的企业数据转化为可执行的洞察，助力更快、更聪明、更有把握的决策。"
+      },
+      "visualizeInsights": {
+        "title": "洞察可视化",
+        "text": "将复杂的企业数据转化为专为管理层决策打造的直观交互式仪表板。可视化关键绩效指标、监控业务趋势，并通过可自定义的图表与报表探索数据。"
+      },
+      "businessDecisions": {
+        "title": "业务决策",
+        "text": "让团队能够更快、更聪明地做出有数据支撑的决策。"
+      }
+    }
+  },
+  "sovereignty": {
+    "title": "毫不妥协的<accent>数据</accent>主权",
+    "description": "以多层架构防御体系守护企业智能资产。我们为您最敏感的分析资产提供全面可见性与严密管控。",
+    "explore": "了解安全框架",
+    "docs": "查看合规文档",
+    "visualAlt": "守护全球互联企业数据的数字盾牌"
+  },
+  "pillars": {
+    "title": "数据主权的四大支柱",
+    "subtitle": "零信任架构确保从数据接入到最终洞察的每个环节，数据始终归您所有。",
+    "learnMore": "查看更多",
+    "tags": {
+      "fido": "支持 FIDO2 与生物识别",
+      "aes": "AES-256 标准",
+      "permissions": "细粒度权限",
+      "blockchain": "区块链验证"
+    },
+    "items": {
+      "mfa": {
+        "title": "MFA 多因素认证",
+        "text": "以身份为核心的安全体系，全端点支持生物识别与 FIDO2 硬件令牌。"
+      },
+      "encryption": {
+        "title": "端到端加密",
+        "text": "对静态存储和传输中的数据均采用军用级 AES-256 加密标准。"
+      },
+      "rbac": {
+        "title": "RBAC 权限控制",
+        "text": "精细到单个单元格的基于属性的访问控制（ABAC）。"
+      },
+      "audit": {
+        "title": "不可篡改的审计日志",
+        "text": "对每一次用户与系统交互进行防篡改、区块链验证的完整追踪。"
+      }
+    }
+  },
+  "footer": {
+    "ctaTitle": "为决策者提供的洞察",
+    "ctaDescription": "加入 25,000 多位订阅我们每周企业数据简报的 BI 专业人士。",
+    "emailLabel": "企业邮箱",
+    "emailPlaceholder": "请输入您的企业邮箱",
+    "subscribe": "立即订阅",
+    "copyright": "© 2026 EDABIP. 企业数据分析与商业智能平台。",
+    "platform": "平台",
+    "solutions": "解决方案",
+    "connect": "联系我们",
+    "platformLinks": {
+      "overview": "功能",
+      "modules": "仪表板",
+      "lifecycle": "集成",
+      "security": "安全"
+    },
+    "solutionLinks": {
+      "industry": "按行业",
+      "function": "按部门",
+      "useCases": "应用场景",
+      "aiAnalytics": "AI 分析"
+    },
+    "contactLinks": {
+      "website": "访问 EDABIP 官网",
+      "email": "发送邮件给 EDABIP 团队"
+    }
+  }
+}

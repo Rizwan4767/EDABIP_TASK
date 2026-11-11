@@ -1,0 +1,43 @@
+.sk {
+  display: block;
+  background: linear-gradient(
+    90deg,
+    #e4eceb 0%,
+    #f3f7f7 40%,
+    #e4eceb 80%
+  );
+  background-size: 200% 100%;
+  animation: sk-shimmer 1.35s ease-in-out infinite;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.sk--circle {
+  border-radius: 50%;
+}
+
+.sk--line {
+  height: 12px;
+  width: 100%;
+}
+
+.sk-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes sk-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sk {
+    animation: none;
+    background: #e4eceb;
+  }
+}

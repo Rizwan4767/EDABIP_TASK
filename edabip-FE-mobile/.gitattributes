@@ -1,0 +1,2 @@
+# Keep Prettier endOfLine=lf consistent in CI and local checkouts.
+* text=auto eol=lf

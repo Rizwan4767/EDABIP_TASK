@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "立即开始",
+    "titleMain": "预约",
+    "titleAccent": "产品演示",
+    "subtitle": "了解 EDABIP 如何帮助您简化运营、获取实时洞察并提升业务成果。",
+    "points": {
+      "personalized": "个性化演示",
+      "session": "15-30 分钟会话",
+      "commitment": "无需承诺"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "预约您的演示",
+      "subtitle": "填写表单,我们的团队将与您联系以确认演示时间"
+    },
+    "fields": {
+      "fullName": "姓名",
+      "workEmail": "工作邮箱",
+      "phoneNumber": "电话号码",
+      "jobTitle": "职位",
+      "companyName": "公司名称",
+      "hearAboutUs": "您是如何了解到我们的?",
+      "preferredDate": "首选日期",
+      "preferredTime": "首选时间",
+      "message": "留言(选填)"
+    },
+    "placeholders": {
+      "fullName": "请输入您的姓名",
+      "workEmail": "请输入您的邮箱",
+      "phoneNumber": "请输入您的电话号码",
+      "jobTitle": "请输入您的职位",
+      "companyName": "请输入您的公司名称",
+      "hearAboutUs": "请选择",
+      "preferredDate": "选择日期",
+      "preferredTime": "选择时间",
+      "message": "请告诉我们您的需求..."
+    },
+    "hearAboutUsOptions": {
+      "google": "谷歌搜索",
+      "social": "社交媒体",
+      "referral": "推荐",
+      "blog": "博客 / 文章",
+      "event": "活动 / 网络研讨会",
+      "other": "其他"
+    },
+    "validation": {
+      "fullNameRequired": "姓名为必填项。",
+      "workEmailRequired": "工作邮箱为必填项。",
+      "emailInvalid": "请输入有效的邮箱地址。",
+      "phoneRequired": "电话号码为必填项。",
+      "phoneInvalid": "请输入有效的电话号码。",
+      "companyRequired": "公司名称为必填项。"
+    },
+    "submit": "预约演示",
+    "submitting": "预约中...",
+    "safeNote": "您的信息将被安全保护,我们绝不会分享您的数据。",
+    "supportNote": "需要帮助?请联系我们的",
+    "supportLink": "IT支持"
+  },
+  "success": {
+    "title": "感谢您 — 一切就绪!",
+    "text": "我们已收到您的请求,将尽快与您联系以确认演示时间。"
+  }
+}

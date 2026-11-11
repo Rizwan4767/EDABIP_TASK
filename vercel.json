@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd edabip-frontend && npm run build",
+  "outputDirectory": "edabip-frontend/dist",
+  "installCommand": "cd edabip-frontend && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

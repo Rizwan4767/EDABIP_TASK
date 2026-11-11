@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "ابدأ الآن",
+    "titleMain": "احجز",
+    "titleAccent": "عرضًا توضيحيًا",
+    "subtitle": "تعرّف على كيف يمكن لـ EDABIP مساعدتك في تبسيط عملياتك، والحصول على رؤى فورية، وتحقيق نتائج أفضل.",
+    "points": {
+      "personalized": "جولة إرشادية مخصصة",
+      "session": "جلسة 15-30 دقيقة",
+      "commitment": "بدون التزام"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "احجز موعد العرض التوضيحي",
+      "subtitle": "املأ النموذج وسيتواصل فريقنا معك لتأكيد موعد العرض التوضيحي"
+    },
+    "fields": {
+      "fullName": "الاسم الكامل",
+      "workEmail": "البريد الإلكتروني للعمل",
+      "phoneNumber": "رقم الهاتف",
+      "jobTitle": "المسمى الوظيفي",
+      "companyName": "اسم الشركة",
+      "hearAboutUs": "كيف سمعت عنا؟",
+      "preferredDate": "التاريخ المفضل",
+      "preferredTime": "الوقت المفضل",
+      "message": "رسالة (اختياري)"
+    },
+    "placeholders": {
+      "fullName": "أدخل اسمك",
+      "workEmail": "أدخل بريدك الإلكتروني",
+      "phoneNumber": "أدخل رقم هاتفك",
+      "jobTitle": "أدخل مسماك الوظيفي",
+      "companyName": "أدخل اسم شركتك",
+      "hearAboutUs": "اختر خيارًا",
+      "preferredDate": "اختر التاريخ",
+      "preferredTime": "اختر الوقت",
+      "message": "أخبرنا عن متطلباتك..."
+    },
+    "hearAboutUsOptions": {
+      "google": "بحث Google",
+      "social": "وسائل التواصل الاجتماعي",
+      "referral": "إحالة",
+      "blog": "مدونة / مقال",
+      "event": "فعالية / ندوة عبر الإنترنت",
+      "other": "أخرى"
+    },
+    "validation": {
+      "fullNameRequired": "الاسم الكامل مطلوب.",
+      "workEmailRequired": "البريد الإلكتروني للعمل مطلوب.",
+      "emailInvalid": "أدخل عنوان بريد إلكتروني صالحًا.",
+      "phoneRequired": "رقم الهاتف مطلوب.",
+      "phoneInvalid": "أدخل رقم هاتف صالحًا.",
+      "companyRequired": "اسم الشركة مطلوب."
+    },
+    "submit": "احجز العرض التوضيحي",
+    "submitting": "جارٍ الحجز...",
+    "safeNote": "معلوماتك آمنة معنا. نحن لا نشارك بياناتك أبدًا.",
+    "supportNote": "بحاجة إلى مساعدة؟ تواصل مع",
+    "supportLink": "الدعم الفني"
+  },
+  "success": {
+    "title": "شكرًا لك — كل شيء جاهز!",
+    "text": "لقد تلقينا طلبك وسنتواصل معك قريبًا لتأكيد موعد العرض التوضيحي."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Explore Platform",
+    "titleBefore": "Explore the",
+    "titleBrand": "EDABIP",
+    "titleAfter": "Platform",
+    "description": "A unified platform to manage, analyse and optimize your operations with real-time insights, intelligent automation and enterprise-grade security.",
+    "startTrial": "Start Free Trial",
+    "bookDemo": "Book a Demo",
+    "visualAlt": "EDABIP platform dashboard preview"
+  },
+  "overview": {
+    "title": "Platform Overview",
+    "subtitle": "Everything you need to run your business smarter and faster",
+    "items": {
+      "unifiedDashboard": {
+        "title": "Unified Dashboard",
+        "description": "Get a complete overview of your business in one powerful dashboard."
+      },
+      "realtimeAnalytics": {
+        "title": "Real-time Analytics",
+        "description": "Make data-driven decisions with real-time insights and advanced reports."
+      },
+      "automation": {
+        "title": "Automation",
+        "description": "Automate workflows and eliminate repetitive tasks to save time."
+      },
+      "integrations": {
+        "title": "Integrations",
+        "description": "Connect with your favourite tools and third-party applications seamlessly."
+      },
+      "securityFirst": {
+        "title": "Security First",
+        "description": "Enterprise-grade security to protect your data and ensure compliance."
+      },
+      "scalablePlatform": {
+        "title": "Scalable Platform",
+        "description": "Built to scale with your business, from startup to enterprise."
+      }
+    }
+  },
+  "modular": {
+    "title": "Modular Ecosystem",
+    "subtitle": "Enable your teams with powerful modules that meet your business needs.",
+    "items": {
+      "dashboard": {
+        "title": "Dashboard",
+        "description": "High-fidelity interface for real-time monitoring of global metrics."
+      },
+      "reports": {
+        "title": "Reports",
+        "description": "Automated PDF/XLS export of scheduled compliance and performance audits."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Deep-dive engine for multi-dimensional data exploration and testing."
+      },
+      "alerts": {
+        "title": "Alerts",
+        "description": "Smart notification system with multi-channel routing (Slack, SMS, Email)."
+      },
+      "userManagement": {
+        "title": "User Management",
+        "description": "Advanced SSO and directory sync for enterprise-scale organization structures."
+      },
+      "apiIntegration": {
+        "title": "API Integration",
+        "description": "Full RESTful API access to programmatically extend EDABIP capabilities."
+      }
+    }
+  },
+  "lifecycle": {
+    "title": "The EDABIP Lifecycle",
+    "subtitle": "From raw data to actionable insights in a simple and intelligent way.",
+    "steps": {
+      "dataCollection": {
+        "title": "Data Collection",
+        "description": "Gather data from multiple sources, applications, APIs, and databases."
+      },
+      "processData": {
+        "title": "Process Data",
+        "description": "Clean, validate, and organize data to ensure accuracy and reliability."
+      },
+      "aiAnalysis": {
+        "title": "AI Analysis",
+        "description": "Apply AI and analytics to discover patterns, trends, and insights."
+      },
+      "visualizeInsights": {
+        "title": "Visualize Insights",
+        "description": "Transform data into interactive dashboards and reports."
+      },
+      "businessDecisions": {
+        "title": "Business Decisions",
+        "description": "Empower team to make faster, smarter, data-driven decisions."
+      }
+    }
+  },
+  "insights": {
+    "badge": "Powerful Dashboard",
+    "title": "All Your Insights in One Place",
+    "lead": "Visualize your data with interactive charts, KPIs, and reports. Monitor performance, track progress, and make better decisions faster.",
+    "points": {
+      "sync": "Real-time data synchronization",
+      "widgets": "Customizable widgets and reports",
+      "builder": "Drag & drop dashboard builder",
+      "export": "Export reports in multiple formats"
+    },
+    "cta": "Explore Dashboard",
+    "visualAlt": "EDABIP analytics dashboard"
+  },
+  "sovereignty": {
+    "eyebrow": "Military-Grade Defense",
+    "title": "Uncompromising Data Sovereignty",
+    "visualAlt": "Secure data infrastructure with encryption and access control",
+    "cards": {
+      "mfa": {
+        "title": "MFA Authentication",
+        "description": "Biometric and hardware token support for all accounts."
+      },
+      "encryption": {
+        "title": "End-to-End Encryption",
+        "description": "AES-256 standards for data at rest and in transit."
+      },
+      "rbac": {
+        "title": "RBAC Control",
+        "description": "Granular attribute-based access at the cell level."
+      },
+      "audit": {
+        "title": "Immutable Audit Logs",
+        "description": "Blockchain-verified tracking of all data interactions."
+      }
+    }
+  },
+  "performance": {
+    "title": "Built for Performance and Scale",
+    "subtitle": "EDABIP is designed to deliver unmatched performance and reliability at any scale.",
+    "stats": {
+      "uptime": "Uptime",
+      "actions": "Transactions/Day",
+      "users": "Active Users",
+      "countries": "Countries",
+      "support": "Support"
+    }
+  },
+  "cta": {
+    "title": "Ready To Transform Your Data Strategy?",
+    "description": "Join the ranks of the world's most intelligent enterprises. Start your 14-day premium trial today.",
+    "button": "Book a Demo"
+  }
+}

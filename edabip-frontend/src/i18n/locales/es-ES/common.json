@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "Inicio de EDABIP"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "features": "Funciones",
+    "dashboard": "Panel",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación",
+    "mainNav": "Navegación principal"
+  },
+  "actions": {
+    "getStarted": "Empezar",
+    "learnMore": "Más información",
+    "bookDemo": "Reservar una demo",
+    "startTrial": "Prueba gratuita",
+    "subscribe": "Suscribirse al boletín",
+    "loading": "Cargando…",
+    "retry": "Reintentar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "close": "Cerrar"
+  },
+  "language": {
+    "selectorLabel": "Idioma",
+    "selectorAria": "Seleccionar idioma, idioma actual {{code}}",
+    "menuLabel": "Idiomas disponibles",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "Seleccionado"
+  },
+  "footer": {
+    "description": "Impulsamos a las empresas con datos, analítica e IA para fomentar el crecimiento y la innovación.",
+    "platform": "Plataforma",
+    "solutions": "Soluciones",
+    "resources": "Recursos",
+    "newsletter": "Boletín",
+    "newsletterBlurb": "Manténgase al día con las últimas novedades y actualizaciones.",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "Introduzca su correo",
+    "copyright": "© {{year}} EDABIP. Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos del servicio",
+    "platformLinks": {
+      "dataIntegration": "Integración de datos",
+      "dataWarehouse": "Almacén de datos",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "Analítica de IA"
+    },
+    "solutionLinks": {
+      "sales": "Analítica de ventas",
+      "financial": "Analítica financiera",
+      "operations": "Analítica de operaciones",
+      "marketing": "Analítica de marketing",
+      "aiInsights": "Insights de IA"
+    },
+    "resourceLinks": {
+      "documentation": "Documentación",
+      "caseStudies": "Casos de estudio",
+      "blog": "Blog",
+      "webinars": "Seminarios web",
+      "support": "Centro de soporte"
+    },
+    "social": {
+      "x": "EDABIP en X",
+      "linkedin": "EDABIP en LinkedIn",
+      "youtube": "EDABIP en YouTube",
+      "instagram": "EDABIP en Instagram"
+    },
+    "aria": {
+      "platform": "Enlaces de plataforma",
+      "solutions": "Enlaces de soluciones",
+      "resources": "Enlaces de recursos"
+    }
+  },
+  "states": {
+    "loading": "Cargando…",
+    "empty": "Aún no hay nada que mostrar.",
+    "error": "Algo salió mal. Inténtelo de nuevo."
+  }
+}

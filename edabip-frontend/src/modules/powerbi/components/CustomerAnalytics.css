@@ -1,0 +1,742 @@
+.ca-page {
+  background: #f4f6fe;
+}
+
+.ca-content {
+  gap: 16px;
+  padding: 16px 20px 28px;
+}
+
+/* header row: back + title / last refreshed / export */
+.ca-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ca-header__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ca-back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.ca-back svg {
+  width: 14px;
+  height: 14px;
+}
+
+.ca-header__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ca-header__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+.ca-header__meta img {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.ca-back img {
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+
+.ca-export-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--db-teal, #134b4a);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ca-export-btn:hover {
+  opacity: 0.92;
+}
+
+.ca-export-btn img {
+   width: 0.85rem;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* category tabs */
+.ca-tabs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.ca-tab {
+  height: 36px;
+  padding: 0 20px;
+  border: 1px solid #134b4a;
+  border-radius: 6px;
+  background: transparent;
+  color: #134b4a;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.ca-tab:hover {
+  background: rgba(19, 75, 74, 0.06);
+}
+
+.ca-tab--active,
+.ca-tab--active:hover {
+  background: #134b4a;
+  color: #fff;
+}
+
+/* KPI cards */
+.ca-kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.ca-kpi-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;   
+  background: #fff;
+  border: 1px solid #cfc9c9;
+  border-radius: 12px;
+  padding: 14px;  
+  box-shadow: 1.5px 3px 4.5px rgba(100, 52, 248, 0.15);
+  min-width: 0;
+  box-sizing: border-box;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ca-kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(19, 75, 74, 0.08);
+}
+
+.ca-kpi-card__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.ca-kpi-card__icon {
+  display: block;
+  width: 40px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
+.ca-kpi-card__label {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+  min-width: 0;
+}
+
+.ca-kpi-card__body {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.ca-kpi-card__value {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000;
+  white-space: nowrap;
+}
+
+.ca-kpi-card__spark {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.ca-kpi-card__spark-img {
+  width: 100%;
+  max-height: 40px;
+  display: block;
+  object-fit: contain;
+}
+
+.ca-kpi-card__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: 'Poppins', 'Lato', sans-serif;
+  font-size: 11px;
+  color: #000;
+}
+
+.ca-kpi-card__badge img {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+}
+
+.ca-kpi-card__badge--positive {
+  background: #d7fed9;
+}
+
+.ca-kpi-card__badge--negative {
+  background: #ffdcdb;
+}
+
+.ca-kpi-card__badge--info {
+  background: #dbe8ff;
+}
+
+/* chart cards (shared shell) */
+.ca-chart-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid #f3f4f6;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.ca-chart-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ca-chart-card__title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #0a0a0a;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+}
+
+/* "Last 6 Months" dropdown — shared across all three chart cards */
+.ca-period-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #134b4a;
+  border-radius: 6px;
+  background: transparent;
+  color: #134b4a;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.ca-period-btn:hover {
+  background: rgba(19, 75, 74, 0.06);
+}
+
+.ca-period-btn img {
+  width: 13px;
+  height: 6px;
+  flex-shrink: 0;
+}
+
+/* dropdown open state + menu — same behavior as TableauPage.css's .tb-dropdown */
+.ca-dropdown {
+  position: relative;
+  display: inline-flex;
+}
+
+.ca-dropdown__btn--open .ca-period-btn__chevron {
+  transform: rotate(180deg);
+}
+
+.ca-dropdown__menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 20;
+  min-width: 140px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(19, 75, 74, 0.12);
+}
+
+.ca-dropdown__option {
+  width: 100%;
+  display: block;
+  border: none;
+  background: transparent;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: #134b4a;
+  cursor: pointer;
+}
+
+.ca-dropdown__option:hover,
+.ca-dropdown__option--active {
+  background: rgba(19, 75, 74, 0.08);
+}
+
+/* charts row */
+.ca-charts-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.ca-chart-body {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ca-chart__tick {
+  font-size: 12px;
+  fill: #9ca3af;
+  font-family: 'Lato', 'Segoe UI', sans-serif;
+}
+
+.ca-chart-card--retention .db-chart__svg {
+  height: 220px;
+}
+
+
+
+/* no y-axis label on this chart, so reclaim the padding reserved for it */
+.ca-chart--retention {
+  padding-left: 0;
+}
+
+/* darken the shared grid line just for this chart */
+.ca-chart-card--retention .db-chart__grid {
+  stroke: #d1d5db;
+  stroke-opacity: 0.4;
+  stroke-dasharray: 3 3;
+}
+
+.ca-chart-card--retention .db-chart__axis-line {
+  stroke: #9ca3af;
+  stroke-width: 1;
+}
+
+.ca-chart-card--retention .db-chart__axis-tick {
+  stroke: #9ca3af;
+  stroke-width: 1;
+}
+
+.ca-chart-card--retention .db-chart__x-axis {
+  padding-left: 12px;
+}
+/* acquisition bar chart */
+.ca-chart-body--bars {
+  height: 220px;
+}
+
+.ca-bar-chart {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.ca-bar-chart__grid {
+  position: absolute;
+  inset: 0;
+  bottom: 28px;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* row position set by tick % so "0" lands on the real baseline */
+.ca-bar-chart__row {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transform: translateY(-50%);
+}
+
+.ca-bar-chart__row .ca-chart__tick {
+  width: 34px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.ca-bar-chart__line {
+  flex: 1;
+  height: 1px;
+  background: #c7cbd1;
+  opacity: 0.1;
+}
+
+.ca-bar-col__bar {
+  position: relative;
+}
+
+.ca-bar-chart__axis {
+  position: absolute;
+  top: 0;
+  left: 38px;
+  right: 0;
+  bottom: 28px;
+  border-left: 1px solid #9ca3af;
+  border-bottom: 1px solid #9ca3af;
+  pointer-events: none;
+}
+
+.ca-bar-col__value {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1f2937;
+  white-space: nowrap;
+}
+
+
+
+.ca-bar-chart__cols {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  gap: 24px;
+  width: 100%;
+  padding-left: 38px;
+  padding-bottom: 28px;
+  box-sizing: border-box;
+}
+
+.ca-bar-col {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+  max-width: 50px;
+}
+
+/* track fills the full column height so a 0% bar sits on the baseline */
+.ca-bar-col__track {
+  width: 22px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ca-bar-col__bar {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  transition: height 0.3s ease;
+}
+
+.ca-bar-col__label {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  font-size: 12px;
+  color: #9ca3af;
+  white-space: nowrap;
+}
+
+/* customer segments */
+.ca-segments-card {
+  width: 100%;
+  max-width: 560px;
+}
+
+.ca-segments-card__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.ca-donut-wrap {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  flex-shrink: 0;
+}
+
+.ca-donut-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ca-donut-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.ca-donut-center__pct {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: -0.02em;
+}
+
+.ca-donut-center__label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.ca-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ca-legend__chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 106px;
+  padding: 10px;
+  background: #f9f9f9;
+  /* border-color set per segment via inline style */
+   border: 1px solid #b7e4de;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ca-legend__chip-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: -0.02em;
+  line-height: 18px;
+}
+
+.ca-legend__chip-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: -0.02em;
+  line-height: 18px;
+}
+
+/* responsive */
+@media (max-width: 1440px) {
+  .ca-kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ca-charts-row {
+    grid-template-columns: 1fr;
+  }
+
+  .ca-segments-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ca-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .ca-header__meta {
+    order: 3;
+  }
+
+  .ca-export-btn {
+    order: 2;
+  }
+
+  .ca-header__title {
+    font-size: 20px;
+  }
+
+  .ca-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-shrink: 0;
+    gap: 10px;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ca-tab {
+    padding: 0 16px;
+    font-size: 13px;
+    height: 32px;
+  }
+
+  .ca-kpis {
+    grid-template-columns: 1fr;
+  }
+
+  .ca-kpi-card__label {
+    font-size: 13px;
+  }
+
+  .ca-segments-card__body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ca-legend {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ca-legend__chip {
+    width: 88px;
+  }
+}
+
+@media (max-width: 560px) {
+  .ca-content {
+    padding: 14px 14px 24px;
+  }
+
+  .ca-header__title {
+    font-size: 18px;
+  }
+
+  .ca-kpi-card {
+    padding: 12px;
+    gap: 12px;
+    border-radius: 12px;
+  }
+
+  .ca-kpi-card__value {
+    font-size: 20px;
+  }
+
+  .ca-chart-card {
+    padding: 12px;
+    gap: 14px;
+  }
+
+  .ca-chart-body,
+  .ca-chart-body--bars {
+    height: 180px;
+  }
+
+  .ca-donut-wrap {
+    width: 150px;
+    height: 150px;
+  }
+}
+/* skeleton loader wrapper — mirrors ca-content's spacing between sections
+   since the skeleton renders as a single child of ca-content */
+.ca-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* visually hidden but still announced by screen readers */
+.ca-skeleton__status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* acquisition bar chart placeholder inside the skeleton */
+.ca-skel-bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  height: 200px;
+}

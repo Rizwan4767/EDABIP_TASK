@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "はじめる",
+    "titleMain": "無料",
+    "titleAccent": "デモを予約",
+    "subtitle": "EDABIPが業務の効率化、リアルタイムのインサイト獲得、成果の向上にどのように役立つかをご覧ください。",
+    "points": {
+      "personalized": "個別対応のご案内",
+      "session": "15〜30分のセッション",
+      "commitment": "契約義務なし"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "デモを予約する",
+      "subtitle": "フォームにご入力いただくと、担当チームがデモ確認のためご連絡いたします"
+    },
+    "fields": {
+      "fullName": "氏名",
+      "workEmail": "会社のメールアドレス",
+      "phoneNumber": "電話番号",
+      "jobTitle": "役職",
+      "companyName": "会社名",
+      "hearAboutUs": "どちらで当社を知りましたか?",
+      "preferredDate": "希望日",
+      "preferredTime": "希望時間",
+      "message": "メッセージ(任意)"
+    },
+    "placeholders": {
+      "fullName": "お名前を入力してください",
+      "workEmail": "メールアドレスを入力してください",
+      "phoneNumber": "電話番号を入力してください",
+      "jobTitle": "役職を入力してください",
+      "companyName": "会社名を入力してください",
+      "hearAboutUs": "選択してください",
+      "preferredDate": "日付を選択",
+      "preferredTime": "時間を選択",
+      "message": "ご要望をお聞かせください..."
+    },
+    "hearAboutUsOptions": {
+      "google": "Google検索",
+      "social": "ソーシャルメディア",
+      "referral": "紹介",
+      "blog": "ブログ / 記事",
+      "event": "イベント / ウェビナー",
+      "other": "その他"
+    },
+    "validation": {
+      "fullNameRequired": "氏名は必須です。",
+      "workEmailRequired": "会社のメールアドレスは必須です。",
+      "emailInvalid": "有効なメールアドレスを入力してください。",
+      "phoneRequired": "電話番号は必須です。",
+      "phoneInvalid": "有効な電話番号を入力してください。",
+      "companyRequired": "会社名は必須です。"
+    },
+    "submit": "デモを予約",
+    "submitting": "予約中...",
+    "safeNote": "お客様の情報は安全に保護されており、第三者と共有することはありません。",
+    "supportNote": "お困りですか?",
+    "supportLink": "ITサポートまでご連絡ください"
+  },
+  "success": {
+    "title": "ありがとうございます。手続きが完了しました!",
+    "text": "ご依頼を受け付けました。デモ確認のため、担当者より近日中にご連絡いたします。"
+  }
+}

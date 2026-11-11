@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "EDABIP home"
+  },
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "dashboard": "Dashboard",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "login": "Login",
+    "signup": "Sign Up",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "mainNav": "Main navigation"
+  },
+  "actions": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "bookDemo": "Book a Demo",
+    "startTrial": "Start Free Trial",
+    "subscribe": "Subscribe to newsletter",
+    "loading": "Loading…",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "continue": "Continue",
+    "back": "Back",
+    "close": "Close"
+  },
+  "language": {
+    "selectorLabel": "Language",
+    "selectorAria": "Select language, current language {{code}}",
+    "menuLabel": "Available languages",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "Selected"
+  },
+  "footer": {
+    "description": "Empowering businesses with data, analytics and AI to drive growth and innovation.",
+    "platform": "Platform",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "newsletter": "Newsletter",
+    "newsletterBlurb": "Stay updated with the latest insights and updates.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email",
+    "copyright": "© {{year}} EDABIP. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "platformLinks": {
+      "dataIntegration": "Data Integration",
+      "dataWarehouse": "Data Warehouse",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "AI Analytics"
+    },
+    "solutionLinks": {
+      "sales": "Sales Analytics",
+      "financial": "Financial Analytics",
+      "operations": "Operations Analytics",
+      "marketing": "Marketing Analytics",
+      "aiInsights": "AI Insights"
+    },
+    "resourceLinks": {
+      "documentation": "Documentation",
+      "caseStudies": "Case Studies",
+      "blog": "Blog",
+      "webinars": "Webinars",
+      "support": "Support Center"
+    },
+    "social": {
+      "x": "EDABIP on X",
+      "linkedin": "EDABIP on LinkedIn",
+      "youtube": "EDABIP on YouTube",
+      "instagram": "EDABIP on Instagram"
+    },
+    "aria": {
+      "platform": "Platform links",
+      "solutions": "Solution links",
+      "resources": "Resource links"
+    }
+  },
+  "states": {
+    "loading": "Loading…",
+    "empty": "Nothing to show yet.",
+    "error": "Something went wrong. Please try again."
+  }
+}

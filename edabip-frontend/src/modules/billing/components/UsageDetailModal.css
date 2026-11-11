@@ -1,0 +1,161 @@
+/*
+ * Only the usage detail body lives here. Backdrop, card, header and buttons
+ * come from PaymentMethodModal.css.
+ */
+
+.bl-usage-detail__card {
+  max-width: 560px;
+}
+
+.bl-usage-detail__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bl-usage-detail__item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px;
+  background: #f8fafa;
+  border: 1px solid #e2e8e8;
+  border-radius: 8px;
+}
+
+.bl-usage-detail__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bl-usage-detail__head h3 {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+.bl-usage-detail__percent {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #134b4a;
+}
+
+.bl-usage-detail__track {
+  height: 6px;
+  border-radius: 999px;
+  background: #e2e8e8;
+  overflow: hidden;
+}
+
+.bl-usage-detail__fill {
+  height: 100%;
+  border-radius: 999px;
+  background: #134b4a;
+}
+
+.bl-usage-detail__figures {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+}
+
+.bl-usage-detail__figures dt,
+.bl-usage-detail__storage-grid dt {
+  margin: 0 0 2px;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #4b5563;
+}
+
+.bl-usage-detail__figures dd,
+.bl-usage-detail__storage-grid dd {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111;
+  word-break: break-word;
+}
+
+.bl-usage-detail__empty {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.bl-usage-detail__storage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 4px;
+  border-top: 1px solid #e2e8e8;
+}
+
+.bl-usage-detail__storage h3 {
+  margin: 8px 0 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+.bl-usage-detail__storage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+}
+
+.bl-usage-detail__note {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.bl-usage-detail__status {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.bl-usage-detail__status--normal {
+  background: #f3fff2;
+  border: 1px solid #168b1a;
+  color: #168b1a;
+}
+
+.bl-usage-detail__status--warning {
+  background: #fff8ec;
+  border: 1px solid #b54708;
+  color: #b54708;
+}
+
+.bl-usage-detail__status--critical {
+  background: #fef3f2;
+  border: 1px solid #b42318;
+  color: #b42318;
+}
+
+@media (max-width: 520px) {
+  .bl-usage-detail__figures,
+  .bl-usage-detail__storage-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

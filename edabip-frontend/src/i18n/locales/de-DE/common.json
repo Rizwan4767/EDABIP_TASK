@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "EDABIP Startseite"
+  },
+  "navbar": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "dashboard": "Dashboard",
+    "services": "Services",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "openMenu": "Navigationsmenü öffnen",
+    "closeMenu": "Navigationsmenü schließen",
+    "mainNav": "Hauptnavigation"
+  },
+  "actions": {
+    "getStarted": "Loslegen",
+    "learnMore": "Mehr erfahren",
+    "bookDemo": "Demo buchen",
+    "startTrial": "Kostenlos testen",
+    "subscribe": "Newsletter abonnieren",
+    "loading": "Wird geladen…",
+    "retry": "Erneut versuchen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "continue": "Weiter",
+    "back": "Zurück",
+    "close": "Schließen"
+  },
+  "language": {
+    "selectorLabel": "Sprache",
+    "selectorAria": "Sprache auswählen, aktuelle Sprache {{code}}",
+    "menuLabel": "Verfügbare Sprachen",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "Ausgewählt"
+  },
+  "footer": {
+    "description": "Wir befähigen Unternehmen mit Daten, Analytik und KI für Wachstum und Innovation.",
+    "platform": "Plattform",
+    "solutions": "Lösungen",
+    "resources": "Ressourcen",
+    "newsletter": "Newsletter",
+    "newsletterBlurb": "Bleiben Sie über die neuesten Insights und Updates informiert.",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "E-Mail eingeben",
+    "copyright": "© {{year}} EDABIP. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "platformLinks": {
+      "dataIntegration": "Datenintegration",
+      "dataWarehouse": "Data Warehouse",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "KI-Analytik"
+    },
+    "solutionLinks": {
+      "sales": "Vertriebsanalytik",
+      "financial": "Finanzanalytik",
+      "operations": "Operative Analytik",
+      "marketing": "Marketinganalytik",
+      "aiInsights": "KI-Insights"
+    },
+    "resourceLinks": {
+      "documentation": "Dokumentation",
+      "caseStudies": "Fallstudien",
+      "blog": "Blog",
+      "webinars": "Webinare",
+      "support": "Support-Center"
+    },
+    "social": {
+      "x": "EDABIP auf X",
+      "linkedin": "EDABIP auf LinkedIn",
+      "youtube": "EDABIP auf YouTube",
+      "instagram": "EDABIP auf Instagram"
+    },
+    "aria": {
+      "platform": "Plattform-Links",
+      "solutions": "Lösungs-Links",
+      "resources": "Ressourcen-Links"
+    }
+  },
+  "states": {
+    "loading": "Wird geladen…",
+    "empty": "Noch nichts anzuzeigen.",
+    "error": "Etwas ist schiefgelaufen. Bitte erneut versuchen."
+  }
+}

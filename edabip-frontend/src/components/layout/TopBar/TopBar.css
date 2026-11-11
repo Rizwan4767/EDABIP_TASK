@@ -1,0 +1,290 @@
+.db-page:has(.db-sidebar--collapsed) .db-topbar {
+  padding-left: 194px;
+}
+
+.db-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 24px;
+  box-shadow: var(--db-shadow, 0 1px 3px rgba(19, 75, 74, 0.08));
+  min-height: 50px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  z-index: 10;
+  border-bottom: 1px solid #eef0f0;
+  transition: padding-left var(--db-chrome-duration, 0.38s) var(--db-chrome-ease, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+.db-search {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 360px;
+  max-width: 100%;
+  height: 36px;
+  padding: 6px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.db-search--sm {
+  width: 260px;
+}
+
+.db-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  background: transparent;
+  min-width: 0;
+  color: #1a1a1a;
+}
+
+.db-search input::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+
+.db-search__icon,
+.db-search__clear-icon {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  opacity: 0.65;
+}
+
+.db-search__clear {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.db-topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.db-topbar__bell {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  opacity: 0.85;
+}
+
+.db-topbar__bell img {
+  width: 22px;
+  height: 22px;
+}
+
+.db-topbar__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.db-topbar__avatar img {
+  width: 18px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.db-topbar__avatar img.db-topbar__avatar-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .db-search {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .db-topbar {
+    transition: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .db-page:has(.db-sidebar--collapsed) .db-topbar {
+    padding-left: 12px;
+  }
+
+  .db-topbar {
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .db-search,
+  .db-search--sm {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tb-account {
+  position: relative;
+}
+
+.tb-account__trigger {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Account menu card — Figma spec: 308x330, radius 12, 20/15 padding, gap 10. */
+.tb-account__menu {
+  position: absolute;
+  inset: auto;
+  margin: 0;
+  border: none;
+  top: calc(100% + 12px);
+  right: 0;
+  width: 308px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 15px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 4px 8px 32px 0px rgba(0, 0, 0, 0.24);
+  z-index: 20;
+}
+
+.tb-account__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tb-account__identity {
+  min-width: 0;
+}
+
+.tb-account__name {
+  margin: 0;
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+  color: #1f2937;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tb-account__email {
+  margin: 0;
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #6b7280;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tb-account__upgrade {
+  display: inline-block;
+  margin-top: 4px;
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+  color: #134b4a;
+  text-decoration: none;
+}
+
+.tb-account__upgrade:hover {
+  text-decoration: underline;
+}
+
+.tb-account__divider {
+  height: 1px;
+  background: #eef0f0;
+}
+
+.tb-account__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 12px 8px;
+  border-radius: 8px;
+  font-family: 'Lato', inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #000;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tb-account__item img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.tb-account__item img.tb-account__chevron {
+  width: 8px;
+  height: 14px;
+}
+
+.tb-account__item-label {
+  flex: 1;
+}
+
+.tb-account__chevron {
+  opacity: 0.7;
+}
+
+button.tb-account__item:hover {
+  background: rgba(19, 75, 74, 0.06);
+}
+
+.tb-account__item--static {
+  cursor: default;
+}
+
+.tb-account__notification-status {
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+  color: #4b5563;
+}

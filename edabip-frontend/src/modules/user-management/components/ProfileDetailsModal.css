@@ -1,0 +1,149 @@
+/* Anchors the popover directly under the EDABIP account icon (top bar,
+   top-right) instead of the default centered modal position. */
+.cm-modal-overlay.pdm-overlay {
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 60px 24px 24px;
+}
+
+.pdm-root {
+  position: relative;
+  width: 460px;
+  max-width: 100%;
+  min-height: 420px;
+  box-sizing: border-box;
+  padding: 28px;
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.pdm-close {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pdm-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.pdm-identity {
+  min-width: 0;
+}
+
+.pdm-name {
+  margin: 0;
+  font-family: 'Lato', inherit;
+  font-weight: 700;
+  font-size: 16px;
+  color: #111;
+}
+
+.pdm-email {
+  margin: 4px 0 0;
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 13px;
+  color: #6b7280;
+}
+.pdm-error {
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: #dc2626;
+}
+
+.pdm-divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 18px 0;
+}
+
+.pdm-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pdm-label {
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #1f2937;
+}
+
+.pdm-value {
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0;
+  color: #4b5563;
+  text-align: right;
+}
+
+.pdm-value-input {
+  font-family: 'Lato', inherit;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0;
+  color: #4b5563;
+  text-align: right;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0;
+  min-width: 0;
+  flex: 1;
+}
+
+.pdm-value-input::placeholder {
+  color: #9ca3af;
+}
+
+.pdm-footer {
+  margin-top: auto;
+  padding-top: 18px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pdm-save-btn {
+  box-sizing: border-box;
+  min-width: 100px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  background: #134b4a;
+  color: #fff;
+  font-family: 'Lato', inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pdm-save-btn:hover {
+  opacity: 0.92;
+}

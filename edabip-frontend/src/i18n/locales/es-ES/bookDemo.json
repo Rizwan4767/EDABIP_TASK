@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "EMPEZAR",
+    "titleMain": "Reserva una",
+    "titleAccent": "Demo",
+    "subtitle": "Descubre cómo EDABIP puede ayudarte a optimizar operaciones, obtener información en tiempo real y lograr mejores resultados.",
+    "points": {
+      "personalized": "Recorrido personalizado",
+      "session": "Sesión de 15-30 minutos",
+      "commitment": "Sin compromiso"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "Programa tu demo",
+      "subtitle": "Completa el formulario y nuestro equipo se pondrá en contacto para confirmar tu demo"
+    },
+    "fields": {
+      "fullName": "Nombre completo",
+      "workEmail": "Correo laboral",
+      "phoneNumber": "Número de teléfono",
+      "jobTitle": "Cargo",
+      "companyName": "Nombre de la empresa",
+      "hearAboutUs": "¿Cómo te enteraste de nosotros?",
+      "preferredDate": "Fecha preferida",
+      "preferredTime": "Hora preferida",
+      "message": "Mensaje (opcional)"
+    },
+    "placeholders": {
+      "fullName": "Ingresa tu nombre",
+      "workEmail": "Ingresa tu correo",
+      "phoneNumber": "Ingresa tu número de teléfono",
+      "jobTitle": "Ingresa tu cargo",
+      "companyName": "Ingresa el nombre de tu empresa",
+      "hearAboutUs": "Selecciona una opción",
+      "preferredDate": "Selecciona una fecha",
+      "preferredTime": "Selecciona una hora",
+      "message": "Cuéntanos sobre tus necesidades..."
+    },
+    "hearAboutUsOptions": {
+      "google": "Búsqueda de Google",
+      "social": "Redes sociales",
+      "referral": "Referencia",
+      "blog": "Blog / Artículo",
+      "event": "Evento / Webinar",
+      "other": "Otro"
+    },
+    "validation": {
+      "fullNameRequired": "El nombre completo es obligatorio.",
+      "workEmailRequired": "El correo laboral es obligatorio.",
+      "emailInvalid": "Ingresa una dirección de correo válida.",
+      "phoneRequired": "El número de teléfono es obligatorio.",
+      "phoneInvalid": "Ingresa un número de teléfono válido.",
+      "companyRequired": "El nombre de la empresa es obligatorio."
+    },
+    "submit": "Reservar demo",
+    "submitting": "Reservando...",
+    "safeNote": "Tu información está segura con nosotros. Nunca compartimos tus datos.",
+    "supportNote": "¿Necesitas ayuda? Contacta a",
+    "supportLink": "soporte de TI"
+  },
+  "success": {
+    "title": "Gracias — ¡todo listo!",
+    "text": "Hemos recibido tu solicitud y nos pondremos en contacto pronto para confirmar tu demo."
+  }
+}

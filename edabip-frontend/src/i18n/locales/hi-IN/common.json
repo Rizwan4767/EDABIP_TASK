@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "EDABIP होम"
+  },
+  "navbar": {
+    "home": "होम",
+    "features": "विशेषताएँ",
+    "dashboard": "डैशबोर्ड",
+    "services": "सेवाएँ",
+    "pricing": "मूल्य निर्धारण",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "openMenu": "नेविगेशन मेनू खोलें",
+    "closeMenu": "नेविगेशन मेनू बंद करें",
+    "mainNav": "मुख्य नेविगेशन"
+  },
+  "actions": {
+    "getStarted": "शुरू करें",
+    "learnMore": "और जानें",
+    "bookDemo": "डेमो बुक करें",
+    "startTrial": "मुफ़्त ट्रायल शुरू करें",
+    "subscribe": "न्यूज़लेटर सब्सक्राइब करें",
+    "loading": "लोड हो रहा है…",
+    "retry": "फिर से कोशिश करें",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "continue": "जारी रखें",
+    "back": "वापस",
+    "close": "बंद करें"
+  },
+  "language": {
+    "selectorLabel": "भाषा",
+    "selectorAria": "भाषा चुनें, वर्तमान भाषा {{code}}",
+    "menuLabel": "उपलब्ध भाषाएँ",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "चयनित"
+  },
+  "footer": {
+    "description": "हम व्यवसायों को डेटा, एनालिटिक्स और AI से सशक्त बनाते हैं ताकि वे विकास और नवाचार को आगे बढ़ा सकें।",
+    "platform": "प्लेटफ़ॉर्म",
+    "solutions": "समाधान",
+    "resources": "संसाधन",
+    "newsletter": "न्यूज़लेटर",
+    "newsletterBlurb": "नवीनतम इनसाइट्स और अपडेट्स से जुड़े रहें।",
+    "emailLabel": "ईमेल पता",
+    "emailPlaceholder": "अपना ईमेल दर्ज करें",
+    "copyright": "© {{year}} EDABIP. सर्वाधिकार सुरक्षित।",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "platformLinks": {
+      "dataIntegration": "डेटा इंटीग्रेशन",
+      "dataWarehouse": "डेटा वेयरहाउस",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "AI एनालिटिक्स"
+    },
+    "solutionLinks": {
+      "sales": "सेल्स एनालिटिक्स",
+      "financial": "वित्तीय एनालिटिक्स",
+      "operations": "ऑपरेशंस एनालिटिक्स",
+      "marketing": "मार्केटिंग एनालिटिक्स",
+      "aiInsights": "AI इनसाइट्स"
+    },
+    "resourceLinks": {
+      "documentation": "दस्तावेज़ीकरण",
+      "caseStudies": "केस स्टडीज़",
+      "blog": "ब्लॉग",
+      "webinars": "वेबिनार",
+      "support": "सपोर्ट सेंटर"
+    },
+    "social": {
+      "x": "X पर EDABIP",
+      "linkedin": "LinkedIn पर EDABIP",
+      "youtube": "YouTube पर EDABIP",
+      "instagram": "Instagram पर EDABIP"
+    },
+    "aria": {
+      "platform": "प्लेटफ़ॉर्म लिंक",
+      "solutions": "समाधान लिंक",
+      "resources": "संसाधन लिंक"
+    }
+  },
+  "states": {
+    "loading": "लोड हो रहा है…",
+    "empty": "अभी दिखाने के लिए कुछ नहीं है।",
+    "error": "कुछ गलत हो गया। कृपया फिर से कोशिश करें।"
+  }
+}

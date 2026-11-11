@@ -1,0 +1,94 @@
+.prd-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.prd-dropdown__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  color: #1f2937;
+  font-family: 'Lato', 'Segoe UI', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.prd-dropdown__trigger:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.prd-dropdown__trigger.is-open {
+  border-color: #134b4a;
+}
+
+.prd-dropdown__chevron {
+  transition: transform 0.15s ease;
+  color: #64748b;
+}
+
+.prd-dropdown__chevron--open {
+  transform: rotate(180deg);
+}
+
+.prd-dropdown__menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 50;
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  min-width: 160px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+}
+
+.prd-dropdown__item {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #1f2937;
+  font-family: 'Lato', 'Segoe UI', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.prd-dropdown__item:hover {
+  background: #e8f0ef;
+  color: #134b4a;
+}
+
+.prd-dropdown__item--selected {
+  background: #eef1f5;
+  font-weight: 700;
+  color: #134b4a;
+}
+
+.prd-dropdown__item--custom {
+  margin-top: 4px;
+  padding-top: 8px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.prd-dropdown__panel--calendar {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 60;
+}

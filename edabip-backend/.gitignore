@@ -1,0 +1,66 @@
+# =============================================================================
+# edabip-backend  —  Python (FastAPI + SQLAlchemy + PyMySQL + Pytest)
+#
+# Only Python backend source, its test suite and the *.example config templates
+# belong in this repository. Nothing else.
+# =============================================================================
+
+# --- Secrets & local environment ---------------------------------------------
+# .env holds the real DATABASE_URL / JWT secret / Razorpay keys / SMTP password.
+# .env.settings holds the settings-module DB credentials.
+# Only the *.example templates are committed.
+.env
+.env.*
+!.env.example
+!.env.settings.example
+
+# --- Python bytecode & build artefacts ---------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Test / lint / type-check caches -----------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit*.xml
+
+# --- Runtime output ----------------------------------------------------------
+# services/report_generator.py writes generated report files here
+# (REPORT_DIR.mkdir(parents=True, exist_ok=True) recreates the folder on demand).
+generated_reports/
+
+# --- Runtime uploads & accidental local databases ----------------------------
+uploads/
+media/
+*.db
+*.sqlite3
+*.db-journal
+
+# --- Local virtualenvs (the shared one lives one level up) -------------------
+venv/
+.venv/
+env/
+ENV/
+
+# --- Editors & operating system ----------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak

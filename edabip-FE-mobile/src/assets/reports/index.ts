@@ -1,0 +1,21 @@
+import type { ImageSourcePropType } from 'react-native';
+
+export const TotalReportsIcon: ImageSourcePropType = require('./png/total-reports.png');
+export const CompletedIcon: ImageSourcePropType = require('./png/completed.png');
+export const FailedIcon: ImageSourcePropType = require('./png/failed.png');
+export const ScheduledIcon: ImageSourcePropType = require('./png/scheduled.png');
+export const AvgRunTimeIcon: ImageSourcePropType = require('./png/avg-runtime.png');
+export const UptrendIcon: ImageSourcePropType = require('./png/uptrend.png');
+export const DowntrendIcon: ImageSourcePropType = require('./png/downtrend.png');
+export const ReportTemplateIcon: ImageSourcePropType = require('./png/report-template.png');
+export const FilterSlidersIcon: ImageSourcePropType = require('./png/filter-sliders.png');
+export const SearchIcon: ImageSourcePropType = require('./png/search.png');
+export const SearchClearIcon: ImageSourcePropType = require('./png/search-clear.png');
+export const DownloadIcon: ImageSourcePropType = require('./png/download.png');
+export const ReloadIcon: ImageSourcePropType = require('./png/reload.png');
+export const KebabIcon: ImageSourcePropType = require('./png/kebab.png');
+export const KebabDotsIcon: ImageSourcePropType = require('./png/kebab-dots.png');
+export const CalendarIcon: ImageSourcePropType = require('./png/calendar.png');
+export const UserIcon: ImageSourcePropType = require('./png/user.png');
+export const ChevronDownIcon: ImageSourcePropType = require('./png/chevron-down.png');
+export const TotalUsersGlyph: ImageSourcePropType = require('./png/TotalUsers-glyph.png');

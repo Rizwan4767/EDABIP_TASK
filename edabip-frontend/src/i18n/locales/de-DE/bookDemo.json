@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "LOSLEGEN",
+    "titleMain": "Demo",
+    "titleAccent": "vereinbaren",
+    "subtitle": "Erfahren Sie, wie EDABIP Ihnen hilft, Abläufe zu optimieren, Echtzeit-Einblicke zu gewinnen und bessere Ergebnisse zu erzielen.",
+    "points": {
+      "personalized": "Persönliche Führung",
+      "session": "15-30 Minuten Sitzung",
+      "commitment": "Keine Verpflichtung"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "Demo vereinbaren",
+      "subtitle": "Füllen Sie das Formular aus, unser Team meldet sich zur Bestätigung Ihres Termins"
+    },
+    "fields": {
+      "fullName": "Vollständiger Name",
+      "workEmail": "Geschäftliche E-Mail",
+      "phoneNumber": "Telefonnummer",
+      "jobTitle": "Berufsbezeichnung",
+      "companyName": "Firmenname",
+      "hearAboutUs": "Wie sind Sie auf uns aufmerksam geworden?",
+      "preferredDate": "Bevorzugtes Datum",
+      "preferredTime": "Bevorzugte Uhrzeit",
+      "message": "Nachricht (optional)"
+    },
+    "placeholders": {
+      "fullName": "Geben Sie Ihren Namen ein",
+      "workEmail": "Geben Sie Ihre E-Mail-Adresse ein",
+      "phoneNumber": "Geben Sie Ihre Telefonnummer ein",
+      "jobTitle": "Geben Sie Ihre Berufsbezeichnung ein",
+      "companyName": "Geben Sie Ihren Firmennamen ein",
+      "hearAboutUs": "Option auswählen",
+      "preferredDate": "Datum auswählen",
+      "preferredTime": "Uhrzeit auswählen",
+      "message": "Erzählen Sie uns von Ihren Anforderungen..."
+    },
+    "hearAboutUsOptions": {
+      "google": "Google-Suche",
+      "social": "Social Media",
+      "referral": "Empfehlung",
+      "blog": "Blog / Artikel",
+      "event": "Veranstaltung / Webinar",
+      "other": "Sonstiges"
+    },
+    "validation": {
+      "fullNameRequired": "Vollständiger Name ist erforderlich.",
+      "workEmailRequired": "Geschäftliche E-Mail ist erforderlich.",
+      "emailInvalid": "Geben Sie eine gültige E-Mail-Adresse ein.",
+      "phoneRequired": "Telefonnummer ist erforderlich.",
+      "phoneInvalid": "Geben Sie eine gültige Telefonnummer ein.",
+      "companyRequired": "Firmenname ist erforderlich."
+    },
+    "submit": "Demo vereinbaren",
+    "submitting": "Wird gebucht...",
+    "safeNote": "Ihre Angaben sind bei uns sicher. Wir geben Ihre Daten niemals weiter.",
+    "supportNote": "Brauchen Sie Hilfe? Kontaktieren Sie unseren",
+    "supportLink": "IT-Support"
+  },
+  "success": {
+    "title": "Danke — Sie sind startklar!",
+    "text": "Wir haben Ihre Anfrage erhalten und melden uns in Kürze zur Bestätigung Ihres Termins."
+  }
+}

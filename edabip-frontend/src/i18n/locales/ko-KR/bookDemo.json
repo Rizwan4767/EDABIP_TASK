@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "시작하기",
+    "titleMain": "데모",
+    "titleAccent": "예약하기",
+    "subtitle": "EDABIP이 운영을 효율화하고, 실시간 인사이트를 얻고, 더 나은 성과를 이끌어내는 데 어떻게 도움이 되는지 확인해 보세요.",
+    "points": {
+      "personalized": "맞춤형 워크스루",
+      "session": "15~30분 세션",
+      "commitment": "약정 없음"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "데모 일정 예약",
+      "subtitle": "양식을 작성하시면 저희 팀이 데모 확정을 위해 연락드립니다"
+    },
+    "fields": {
+      "fullName": "이름",
+      "workEmail": "업무용 이메일",
+      "phoneNumber": "전화번호",
+      "jobTitle": "직책",
+      "companyName": "회사명",
+      "hearAboutUs": "저희를 어떻게 알게 되셨나요?",
+      "preferredDate": "희망 날짜",
+      "preferredTime": "희망 시간",
+      "message": "메시지 (선택)"
+    },
+    "placeholders": {
+      "fullName": "이름을 입력하세요",
+      "workEmail": "이메일을 입력하세요",
+      "phoneNumber": "전화번호를 입력하세요",
+      "jobTitle": "직책을 입력하세요",
+      "companyName": "회사명을 입력하세요",
+      "hearAboutUs": "옵션 선택",
+      "preferredDate": "날짜 선택",
+      "preferredTime": "시간 선택",
+      "message": "요구 사항을 알려주세요..."
+    },
+    "hearAboutUsOptions": {
+      "google": "구글 검색",
+      "social": "소셜 미디어",
+      "referral": "추천",
+      "blog": "블로그 / 아티클",
+      "event": "이벤트 / 웨비나",
+      "other": "기타"
+    },
+    "validation": {
+      "fullNameRequired": "이름을 입력해 주세요.",
+      "workEmailRequired": "업무용 이메일을 입력해 주세요.",
+      "emailInvalid": "유효한 이메일 주소를 입력해 주세요.",
+      "phoneRequired": "전화번호를 입력해 주세요.",
+      "phoneInvalid": "유효한 전화번호를 입력해 주세요.",
+      "companyRequired": "회사명을 입력해 주세요."
+    },
+    "submit": "데모 예약하기",
+    "submitting": "예약 중...",
+    "safeNote": "고객님의 정보는 안전하게 보호되며, 절대 제3자와 공유되지 않습니다.",
+    "supportNote": "도움이 필요하신가요? 저희",
+    "supportLink": "IT 지원팀에 문의하세요"
+  },
+  "success": {
+    "title": "감사합니다 — 신청이 완료되었습니다!",
+    "text": "요청이 정상적으로 접수되었습니다. 곧 담당자가 데모 일정 확정을 위해 연락드리겠습니다."
+  }
+}

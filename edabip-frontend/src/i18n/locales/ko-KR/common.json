@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "EDABIP 홈"
+  },
+  "navbar": {
+    "home": "홈",
+    "features": "기능",
+    "dashboard": "대시보드",
+    "services": "서비스",
+    "pricing": "요금",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "login": "로그인",
+    "signup": "회원가입",
+    "openMenu": "탐색 메뉴 열기",
+    "closeMenu": "탐색 메뉴 닫기",
+    "mainNav": "주 탐색"
+  },
+  "actions": {
+    "getStarted": "시작하기",
+    "learnMore": "자세히 보기",
+    "bookDemo": "데모 예약",
+    "startTrial": "무료 체험 시작",
+    "subscribe": "뉴스레터 구독",
+    "loading": "로딩 중…",
+    "retry": "다시 시도",
+    "cancel": "취소",
+    "save": "저장",
+    "continue": "계속",
+    "back": "뒤로",
+    "close": "닫기"
+  },
+  "language": {
+    "selectorLabel": "언어",
+    "selectorAria": "언어 선택, 현재 언어 {{code}}",
+    "menuLabel": "사용 가능한 언어",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "선택됨"
+  },
+  "footer": {
+    "description": "데이터, 분석, AI로 기업의 성장과 혁신을 지원합니다.",
+    "platform": "플랫폼",
+    "solutions": "솔루션",
+    "resources": "리소스",
+    "newsletter": "뉴스레터",
+    "newsletterBlurb": "최신 인사이트와 업데이트를 받아보세요.",
+    "emailLabel": "이메일 주소",
+    "emailPlaceholder": "이메일을 입력하세요",
+    "copyright": "© {{year}} EDABIP. All rights reserved.",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 약관",
+    "platformLinks": {
+      "dataIntegration": "데이터 통합",
+      "dataWarehouse": "데이터 웨어하우스",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "AI 분석"
+    },
+    "solutionLinks": {
+      "sales": "영업 분석",
+      "financial": "재무 분석",
+      "operations": "운영 분석",
+      "marketing": "마케팅 분석",
+      "aiInsights": "AI 인사이트"
+    },
+    "resourceLinks": {
+      "documentation": "문서",
+      "caseStudies": "사례 연구",
+      "blog": "블로그",
+      "webinars": "웨비나",
+      "support": "지원 센터"
+    },
+    "social": {
+      "x": "X의 EDABIP",
+      "linkedin": "LinkedIn의 EDABIP",
+      "youtube": "YouTube의 EDABIP",
+      "instagram": "Instagram의 EDABIP"
+    },
+    "aria": {
+      "platform": "플랫폼 링크",
+      "solutions": "솔루션 링크",
+      "resources": "리소스 링크"
+    }
+  },
+  "states": {
+    "loading": "로딩 중…",
+    "empty": "표시할 항목이 아직 없습니다.",
+    "error": "문제가 발생했습니다. 다시 시도해 주세요."
+  }
+}

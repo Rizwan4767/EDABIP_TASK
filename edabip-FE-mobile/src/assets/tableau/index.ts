@@ -1,0 +1,20 @@
+import type { ImageSourcePropType } from 'react-native';
+
+export const ActivityShareIcon: ImageSourcePropType = require('./png/activity-share.png');
+export const ArrowDownIcon: ImageSourcePropType = require('./png/arrow-down.png');
+export const ArrowUpIcon: ImageSourcePropType = require('./png/arrow-up.png');
+export const ChevronDownIcon: ImageSourcePropType = require('./png/chevron-down.png');
+export const DonutChartIcon: ImageSourcePropType = require('./png/donut-chart.png');
+export const KpiActiveProjectsIcon: ImageSourcePropType = require('./png/kpi-active-projects.png');
+export const KpiCustomerInsightsIcon: ImageSourcePropType = require('./png/kpi-customer-insights.png');
+export const KpiCustomersIcon: ImageSourcePropType = require('./png/kpi-customers.png');
+export const KpiFolderIcon: ImageSourcePropType = require('./png/kpi-folder.png');
+export const KpiIncidentsIcon: ImageSourcePropType = require('./png/kpi-incidents.png');
+export const KpiProfitIcon: ImageSourcePropType = require('./png/kpi-profit.png');
+export const KpiRevenueIcon: ImageSourcePropType = require('./png/kpi-revenue.png');
+export const KpiSalesPerformanceIcon: ImageSourcePropType = require('./png/kpi-sales-performance.png');
+export const KpiUptimeIcon: ImageSourcePropType = require('./png/kpi-uptime.png');
+export const SparklineDownIcon: ImageSourcePropType = require('./png/sparkline-down.png');
+export const SparklineUpIcon: ImageSourcePropType = require('./png/sparkline-up.png');
+export const TrendDownIcon: ImageSourcePropType = require('./png/trend-down.png');
+export const TrendUpIcon: ImageSourcePropType = require('./png/trend-up.png');

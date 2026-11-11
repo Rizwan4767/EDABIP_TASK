@@ -1,0 +1,53 @@
+import { StyleSheet } from 'react-native';
+
+export const edabipAppHeaderStyles = StyleSheet.create({
+  root: { paddingHorizontal: 16, paddingBottom: 16, gap: 16 },
+  nav: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  navButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  navRight: { flexDirection: 'row', alignItems: 'center', gap: 12 },
+  searchButton: {
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  avatar: { width: 30, height: 30, borderRadius: 15 },
+  logo: { width: 73, height: 29, overflow: 'hidden' },
+  welcomeRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 8 },
+  welcomeText: { flex: 1, gap: 6 },
+  titleRow: { flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap', gap: 10 },
+  title: { fontSize: 20, lineHeight: 24 },
+  liveBadge: {
+    borderWidth: 1,
+    borderRadius: 60,
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+  },
+  liveLabel: { fontSize: 12, lineHeight: 16, color: '#000' },
+  subtitle: { fontSize: 10, lineHeight: 14, opacity: 0.92 },
+  filterRefresh: {
+    width: 44,
+    height: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  filterRefreshHits: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    flexDirection: 'row',
+  },
+  filterHit: { flex: 1 },
+  refreshHit: { flex: 1 },
+});

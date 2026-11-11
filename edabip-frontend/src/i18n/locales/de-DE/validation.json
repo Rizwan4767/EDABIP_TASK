@@ -1,0 +1,5 @@
+{
+  "required": "This field is required.",
+  "emailInvalid": "Enter a valid email address.",
+  "generic": "Please check this field and try again."
+}

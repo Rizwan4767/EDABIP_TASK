@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "INIZIA ORA",
+    "titleMain": "Prenota una",
+    "titleAccent": "Demo",
+    "subtitle": "Scopri come EDABIP può aiutarti a semplificare le operazioni, ottenere informazioni in tempo reale e ottenere risultati migliori.",
+    "points": {
+      "personalized": "Percorso guidato personalizzato",
+      "session": "Sessione di 15-30 minuti",
+      "commitment": "Nessun impegno"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "Pianifica la tua demo",
+      "subtitle": "Compila il modulo e il nostro team ti contatterà per confermare la tua demo"
+    },
+    "fields": {
+      "fullName": "Nome completo",
+      "workEmail": "Email di lavoro",
+      "phoneNumber": "Numero di telefono",
+      "jobTitle": "Ruolo",
+      "companyName": "Nome dell'azienda",
+      "hearAboutUs": "Come hai saputo di noi?",
+      "preferredDate": "Data preferita",
+      "preferredTime": "Ora preferita",
+      "message": "Messaggio (facoltativo)"
+    },
+    "placeholders": {
+      "fullName": "Inserisci il tuo nome",
+      "workEmail": "Inserisci la tua email",
+      "phoneNumber": "Inserisci il tuo numero di telefono",
+      "jobTitle": "Inserisci il tuo ruolo",
+      "companyName": "Inserisci il nome della tua azienda",
+      "hearAboutUs": "Seleziona un'opzione",
+      "preferredDate": "Seleziona una data",
+      "preferredTime": "Seleziona un'ora",
+      "message": "Raccontaci le tue esigenze..."
+    },
+    "hearAboutUsOptions": {
+      "google": "Ricerca Google",
+      "social": "Social media",
+      "referral": "Segnalazione",
+      "blog": "Blog / Articolo",
+      "event": "Evento / Webinar",
+      "other": "Altro"
+    },
+    "validation": {
+      "fullNameRequired": "Il nome completo è obbligatorio.",
+      "workEmailRequired": "L'email di lavoro è obbligatoria.",
+      "emailInvalid": "Inserisci un indirizzo email valido.",
+      "phoneRequired": "Il numero di telefono è obbligatorio.",
+      "phoneInvalid": "Inserisci un numero di telefono valido.",
+      "companyRequired": "Il nome dell'azienda è obbligatorio."
+    },
+    "submit": "Prenota demo",
+    "submitting": "Prenotazione in corso...",
+    "safeNote": "Le tue informazioni sono al sicuro con noi. Non condividiamo mai i tuoi dati.",
+    "supportNote": "Hai bisogno di aiuto? Contatta il nostro",
+    "supportLink": "supporto IT"
+  },
+  "success": {
+    "title": "Grazie — sei a posto!",
+    "text": "Abbiamo ricevuto la tua richiesta e ti contatteremo a breve per confermare la tua demo."
+  }
+}

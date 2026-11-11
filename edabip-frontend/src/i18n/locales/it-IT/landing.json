@@ -1,0 +1,215 @@
+{
+  "header": {
+    "tryNow": "Registrati"
+  },
+  "hero": {
+    "eyebrow": "Categorie della piattaforma EDABIP",
+    "pills": {
+      "data": "Elaborazione dei dati",
+      "ai": "Piattaforma di analisi con IA",
+      "visualization": "Visualizzazione degli insight"
+    },
+    "title": "Trasforma i dati aziendali<br />in <accent>decisioni</accent> intelligenti",
+    "description": "Unifica dati aziendali, analytics e IA per prendere decisioni di business più rapide e consapevoli da un'unica piattaforma intelligente.",
+    "login": "Accedi",
+    "getStarted": "Inizia ora",
+    "proofAria": "Vantaggi della piattaforma",
+    "proof": {
+      "monitoring": "Monitoraggio dei KPI in tempo reale",
+      "processing": "Elaborazione dei dati aziendali",
+      "security": "Sicuro fin dalla progettazione"
+    },
+    "visualAlt": "Dati aziendali connessi che fluiscono attraverso EDABIP"
+  },
+  "platform": {
+    "title": "Panoramica della piattaforma",
+    "subtitle": "Tutto ciò che serve per rendere la tua azienda più intelligente e più veloce",
+    "previous": "Mostra la fase precedente della piattaforma",
+    "next": "Mostra la fase successiva della piattaforma",
+    "stages": {
+      "centralized": {
+        "title": "Collega i tuoi dati",
+        "text": "Integra i dati provenienti da ERP, CRM, HRMS, finanza, API, piattaforme cloud e database in un ecosistema analitico unificato.",
+        "panelTitle": "Fonti dati",
+        "items": {
+          "i1": "Oltre 100 connettori dati",
+          "i2": "Cloud e on-premise",
+          "i3": "Sincronizzazione dati in tempo reale",
+          "i4": "Integrazione API",
+          "i5": "Connessioni sicure"
+        }
+      },
+      "process": {
+        "title": "Prepara e trasforma",
+        "text": "Pulisci, convalida, arricchisci e trasforma i dati grezzi in dataset affidabili grazie a potenti pipeline ETL e di elaborazione dei dati.",
+        "panelTitle": "Elaborazione dei dati",
+        "items": {
+          "i1": "Pulizia dei dati",
+          "i2": "Convalida dei dati",
+          "i3": "Pipeline ETL",
+          "i4": "Arricchimento dei dati"
+        }
+      },
+      "visualize": {
+        "title": "Visualizza gli insight di business",
+        "text": "Crea dashboard interattive e monitora le metriche chiave del business con potenti strumenti di analisi visiva e reportistica direzionale.",
+        "panelTitle": "Motore di analytics",
+        "items": {
+          "i1": "Dashboard interattive",
+          "i2": "Monitoraggio dei KPI",
+          "i3": "Power BI",
+          "i4": "Tableau",
+          "i5": "Report direzionali"
+        }
+      },
+      "ai": {
+        "title": "Analytics potenziata dall'IA",
+        "text": "Sfrutta analytics predittiva e machine learning per prevedere i trend, rilevare anomalie e generare raccomandazioni intelligenti.",
+        "panelTitle": "Funzionalità IA",
+        "items": {
+          "i1": "Analytics predittiva",
+          "i2": "Previsione dei trend",
+          "i3": "Rilevamento delle anomalie",
+          "i4": "Raccomandazioni intelligenti"
+        }
+      },
+      "collaborate": {
+        "title": "Collabora e automatizza",
+        "text": "Condividi report, pianifica dashboard automatizzate, ricevi avvisi in tempo reale e abilita la collaborazione tra i team.",
+        "panelTitle": "Strumenti di collaborazione",
+        "items": {
+          "i1": "Report automatizzati",
+          "i2": "Avvisi intelligenti",
+          "i3": "Automazione dei flussi di lavoro",
+          "i4": "Collaborazione tra team"
+        }
+      }
+    }
+  },
+  "modular": {
+    "title": "Ecosistema modulare",
+    "subtitle": "Metti a disposizione dei tuoi team moduli potenti e adatti alle esigenze del business. Componenti progettati con precisione per operazioni su scala aziendale.",
+    "enterpriseCore": "Core aziendale",
+    "configure": "Configura vista",
+    "lastGenerated": "Ultima generazione 2 ore fa",
+    "items": {
+      "dashboard": {
+        "title": "Dashboard",
+        "text": "Ottieni una visibilità completa sulla tua azienda con dashboard interattive, analytics in tempo reale e insight generati dall'IA. Monitora gli indicatori chiave di prestazione, individua i trend e prendi decisioni più rapide basate sui dati da un'unica piattaforma unificata."
+      },
+      "reports": {
+        "title": "Report",
+        "text": "Esportazioni automatiche in PDF e XLS per audit programmati di conformità e prestazioni."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "text": "Motore di analisi approfondita per l'esplorazione di dati multidimensionali e i test predittivi. Sfrutta gli insight generati dall'IA per far emergere schemi nascosti."
+      },
+      "alerts": {
+        "title": "Avvisi",
+        "text": "Sistema di notifiche intelligente con instradamento multicanale (Slack, SMS, e-mail). Grazie all'escalation intelligente non perderai mai il superamento di una soglia critica."
+      },
+      "userManagement": {
+        "title": "Gestione utenti",
+        "text": "SSO avanzato e sincronizzazione delle directory per strutture organizzative su scala aziendale, con RBAC granulare e registro di audit inclusi."
+      }
+    }
+  },
+  "lifecycle": {
+    "eyebrow": "Architettura di base",
+    "title": "Il ciclo di vita EDABIP",
+    "subtitle": "Dai dati grezzi agli insight concreti attraverso un processo progettato con precisione per la scala aziendale.",
+    "phase": "Fase {{number}}",
+    "explore": "Esplora gli algoritmi",
+    "tags": {
+      "api": "Connettori API",
+      "etl": "Pipeline ETL",
+      "ai": "Scudo di integrità IA attivo"
+    },
+    "steps": {
+      "dataCollection": {
+        "title": "Raccolta dei dati",
+        "text": "Raccogli flussi ad alta velocità da molteplici fonti distribuite, tra cui IoT, CRM e silos legacy."
+      },
+      "processData": {
+        "title": "Elaborazione dei dati",
+        "text": "Trasforma i dati grezzi in business intelligence affidabile con il motore intelligente di preparazione dei dati di EDABIP. I dati provenienti da più fonti aziendali vengono automaticamente puliti, convalidati, normalizzati e arricchiti, eliminando incoerenze e duplicati. Pipeline ETL avanzate ed elaborazione in tempo reale garantiscono che ogni dataset sia accurato, pronto per l'analisi e ottimizzato per dashboard, reportistica e insight generati dall'IA."
+      },
+      "aiAnalysis": {
+        "title": "Analisi con IA",
+        "text": "Accedi a una business intelligence più profonda con il motore di analytics basato sull'IA di EDABIP. Scopri schemi nascosti, prevedi i trend futuri e rileva anomalie con modelli predittivi e di machine learning avanzati. Trasforma dati aziendali complessi in insight concreti che permettono decisioni più rapide, consapevoli e sicure."
+      },
+      "visualizeInsights": {
+        "title": "Visualizzazione degli insight",
+        "text": "Trasforma dati aziendali complessi in dashboard intuitive e interattive, pensate per le decisioni ai vertici aziendali. Visualizza gli indicatori chiave di prestazione, monitora i trend di business ed esplora i dati con grafici e report personalizzabili."
+      },
+      "businessDecisions": {
+        "title": "Decisioni di business",
+        "text": "Consenti ai team di prendere decisioni più rapide, consapevoli e basate sui dati."
+      }
+    }
+  },
+  "sovereignty": {
+    "title": "Sovranità dei <accent>dati</accent> senza compromessi",
+    "description": "Proteggi l'intelligence della tua azienda con sistemi di difesa architetturale multilivello. Offriamo visibilità totale e controllo assoluto sugli asset analitici più sensibili.",
+    "explore": "Esplora il framework di sicurezza",
+    "docs": "Consulta i documenti di conformità",
+    "visualAlt": "Scudo digitale che protegge dati aziendali connessi a livello globale"
+  },
+  "pillars": {
+    "title": "I quattro pilastri della sovranità",
+    "subtitle": "La nostra architettura zero trust garantisce che i tuoi dati restino tuoi, dal momento dell'acquisizione fino all'insight finale.",
+    "learnMore": "Scopri di più",
+    "tags": {
+      "fido": "PRONTO PER FIDO2 E BIOMETRIA",
+      "aes": "STANDARD AES-256",
+      "permissions": "AUTORIZZAZIONI GRANULARI",
+      "blockchain": "VERIFICATO SU BLOCKCHAIN"
+    },
+    "items": {
+      "mfa": {
+        "title": "Autenticazione MFA",
+        "text": "Sicurezza incentrata sull'identità con supporto per biometria e token hardware FIDO2 su tutti gli endpoint."
+      },
+      "encryption": {
+        "title": "Crittografia E2EE",
+        "text": "Standard AES-256 di livello militare applicati ai dati sia a riposo sia in transito."
+      },
+      "rbac": {
+        "title": "Controllo RBAC",
+        "text": "Controllo degli accessi basato su attributi (ABAC) di precisione, fino al livello della singola cella."
+      },
+      "audit": {
+        "title": "Log di audit immutabili",
+        "text": "Tracciamento a prova di manomissione e verificato su blockchain di ogni singola interazione di utenti e sistemi."
+      }
+    }
+  },
+  "footer": {
+    "ctaTitle": "Insight per chi decide",
+    "ctaDescription": "Unisciti a oltre 25.000 professionisti della BI che ricevono il nostro brief settimanale sui dati aziendali.",
+    "emailLabel": "E-mail aziendale",
+    "emailPlaceholder": "Inserisci la tua e-mail aziendale",
+    "subscribe": "Iscriviti ora",
+    "copyright": "© 2026 EDABIP. Piattaforma di analytics dei dati aziendali e business intelligence.",
+    "platform": "Piattaforma",
+    "solutions": "Soluzioni",
+    "connect": "Contattaci",
+    "platformLinks": {
+      "overview": "Funzionalità",
+      "modules": "Dashboard",
+      "lifecycle": "Integrazione",
+      "security": "Sicurezza"
+    },
+    "solutionLinks": {
+      "industry": "Per settore",
+      "function": "Per reparto",
+      "useCases": "Casi d'uso",
+      "aiAnalytics": "Analytics con IA"
+    },
+    "contactLinks": {
+      "website": "Visita il sito web di EDABIP",
+      "email": "Scrivi al team EDABIP"
+    }
+  }
+}

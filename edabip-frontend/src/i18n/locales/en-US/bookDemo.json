@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "GET STARTED",
+    "titleMain": "Book a",
+    "titleAccent": "Demo",
+    "subtitle": "See how EDABIP can help you streamline operations, gain real-time insights, and drive better results.",
+    "points": {
+      "personalized": "Personalized Walkthrough",
+      "session": "15-30 Minutes Session",
+      "commitment": "No Commitment"
+    }
+  },
+  "form": {
+    "header": {
+      "title": "Schedule Your Demo",
+      "subtitle": "Fill out the form and our team will get in touch to confirm your demo"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "workEmail": "Work Email",
+      "phoneNumber": "Phone Number",
+      "jobTitle": "Job Title",
+      "companyName": "Company Name",
+      "hearAboutUs": "How did you hear about us?",
+      "preferredDate": "Preferred Date",
+      "preferredTime": "Preferred Time",
+      "message": "Message (Optional)"
+    },
+    "placeholders": {
+      "fullName": "Enter your name",
+      "workEmail": "Enter your email",
+      "phoneNumber": "Enter your phone number",
+      "jobTitle": "Enter your job title",
+      "companyName": "Enter your company name",
+      "hearAboutUs": "Select option",
+      "preferredDate": "Select date",
+      "preferredTime": "Select time",
+      "message": "Tell us about your requirements..."
+    },
+    "hearAboutUsOptions": {
+      "google": "Google Search",
+      "social": "Social Media",
+      "referral": "Referral",
+      "blog": "Blog / Article",
+      "event": "Event / Webinar",
+      "other": "Other"
+    },
+    "validation": {
+      "fullNameRequired": "Full name is required.",
+      "workEmailRequired": "Work email is required.",
+      "emailInvalid": "Enter a valid email address.",
+      "phoneRequired": "Phone number is required.",
+      "phoneInvalid": "Enter a valid phone number.",
+      "companyRequired": "Company name is required."
+    },
+    "submit": "Book Demo",
+    "submitting": "Booking...",
+    "safeNote": "Your information is safe with us. We never share your data.",
+    "supportNote": "Need help? Contact our",
+    "supportLink": "IT Support"
+  },
+  "success": {
+    "title": "Thanks — you're all set!",
+    "text": "We've received your request and will reach out shortly to confirm your demo."
+  }
+}

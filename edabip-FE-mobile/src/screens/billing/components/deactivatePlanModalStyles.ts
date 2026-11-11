@@ -1,0 +1,51 @@
+import { StyleSheet } from 'react-native';
+
+export const deactivatePlanModalStyles = StyleSheet.create({
+  copy: { gap: 8, marginBottom: 12 },
+  title: {
+    fontSize: 20,
+    lineHeight: 26,
+    textAlign: 'center',
+    color: '#111111',
+  },
+  message: {
+    fontSize: 14,
+    lineHeight: 20,
+    textAlign: 'center',
+    color: '#6B7280',
+  },
+  comments: {
+    minHeight: 88,
+    maxHeight: 140,
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+    borderRadius: 16,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    color: '#111111',
+    textAlignVertical: 'top',
+  },
+  commentsFocused: { borderColor: '#4EA9A0', borderWidth: 1.5 },
+  counter: { marginTop: 8, fontSize: 13, lineHeight: 18 },
+  error: { marginTop: 8, fontSize: 13, lineHeight: 18, color: '#DD2D30' },
+  actions: { flexDirection: 'row', gap: 12 },
+  action: {
+    flex: 1,
+    minHeight: 48,
+    borderRadius: 999,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 12,
+  },
+  cancel: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1.5,
+    borderColor: '#134B4A',
+  },
+  confirm: { backgroundColor: '#DD2D30' },
+  confirmDisabled: { backgroundColor: '#E5E7EB' },
+  actionLabel: { fontSize: 16, lineHeight: 20 },
+  cancelLabel: { color: '#134B4A' },
+  confirmLabel: { color: '#FFFFFF' },
+  confirmDisabledLabel: { color: '#6B7280' },
+});

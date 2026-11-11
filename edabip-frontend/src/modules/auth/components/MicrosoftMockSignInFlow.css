@@ -1,0 +1,245 @@
+.ms-flow-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(15, 23, 42, 0.28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.ms-flow-shell {
+  width: min(440px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ms-flow-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.18);
+  padding: 44px 44px 40px;
+  color: #1b1b1b;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", system-ui, sans-serif;
+}
+
+.ms-flow-logo {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.ms-flow-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ms-flow-identity {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 18px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #1b1b1b;
+  font: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.ms-flow-identity span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ms-flow-identity:hover:not(:disabled) {
+  color: #0067b8;
+}
+
+.ms-flow-identity:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.ms-flow-title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #1b1b1b;
+}
+
+.ms-flow-subtitle {
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #616161;
+}
+
+.ms-flow-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ms-flow-input {
+  width: 100%;
+  height: 36px;
+  margin: 0 0 8px;
+  padding: 6px 8px;
+  border: 0;
+  border-bottom: 1px solid #605e5c;
+  border-radius: 0;
+  background: transparent;
+  color: #242424;
+  font: inherit;
+  font-size: 15px;
+  outline: none;
+}
+
+.ms-flow-input:focus {
+  border-bottom-color: #0067b8;
+  box-shadow: 0 1px 0 #0067b8;
+}
+
+.ms-flow-input:disabled {
+  opacity: 0.65;
+}
+
+.ms-flow-hint,
+.ms-flow-error,
+.ms-flow-mfa-help {
+  margin: 0 0 18px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.ms-flow-hint,
+.ms-flow-mfa-help {
+  color: #616161;
+}
+
+.ms-flow-error {
+  color: #a4262c;
+}
+
+.ms-flow-mfa-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin: 8px auto 18px;
+  border-radius: 50%;
+  border: 2px solid #0067b8;
+  color: #0067b8;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.ms-flow-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.ms-flow-actions--stack {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.ms-flow-primary,
+.ms-flow-secondary {
+  min-height: 32px;
+  padding: 6px 20px;
+  border: 0;
+  border-radius: 2px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ms-flow-primary {
+  background: #0067b8;
+  color: #ffffff;
+}
+
+.ms-flow-primary:hover:not(:disabled) {
+  background: #005a9e;
+}
+
+.ms-flow-secondary {
+  background: transparent;
+  color: #0067b8;
+}
+
+.ms-flow-secondary:hover:not(:disabled) {
+  background: rgba(0, 103, 184, 0.08);
+}
+
+.ms-flow-primary:disabled,
+.ms-flow-secondary:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.ms-flow-primary:focus-visible,
+.ms-flow-secondary:focus-visible,
+.ms-flow-identity:focus-visible,
+.ms-flow-input:focus-visible {
+  outline: 2px solid #005a9e;
+  outline-offset: 2px;
+}
+
+.ms-flow-demo-badge {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(23, 32, 51, 0.72);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ms-flow-overlay,
+  .ms-flow-card {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .ms-flow-overlay {
+    background: rgba(15, 23, 42, 0.45);
+  }
+
+  .ms-flow-card {
+    background: #ffffff;
+  }
+}
+
+@media (max-width: 480px) {
+  .ms-flow-card {
+    padding: 28px 22px 24px;
+  }
+
+  .ms-flow-title {
+    font-size: 22px;
+  }
+}

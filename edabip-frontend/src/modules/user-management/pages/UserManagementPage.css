@@ -1,0 +1,572 @@
+/* ——— Welcome + KPIs ——— */
+.um-welcome {
+  background: #fff;
+  border-radius: 16px;
+}
+
+.um-welcome__inner {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.um-welcome__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.um-welcome__title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.um-welcome__title-row h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111;
+}
+
+.um-realtime {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 60px;
+  border: 1px solid var(--db-success);
+  background: var(--db-active-bg);
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.um-realtime__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--db-success);
+}
+
+.um-welcome__sub {
+  margin: 4px 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4b5563;
+  line-height: 1.4;
+  max-width: none;
+}
+
+.um-welcome__actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.um-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 6px;
+  border: 1px solid var(--db-teal);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+}
+.um-btn--outline {
+  background: transparent;
+  color: var(--db-teal);
+}
+
+.um-btn--outline:hover {
+  background: rgba(19, 75, 74, 0.06);
+}
+
+.um-btn--solid {
+  background: var(--db-teal);
+  color: #fff;
+}
+
+.um-btn--solid:hover {
+  opacity: 0.92;
+}
+
+/* ——— Page header ("Users" title + Last Refreshed + Export) ——— */
+.um-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.um-page-header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111;
+}
+
+.um-page-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.um-last-refreshed {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.um-last-refreshed img {
+  opacity: 0.7;
+}
+
+/* Reuse db-welcome__title-row's h1 look for the welcome banner's h2 */
+.um-welcome-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111;
+}
+
+.um-page .db-welcome__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.um-page .db-welcome__head {
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(19, 75, 74, 0.08);
+}
+
+.um-page .db-welcome__sub {
+  margin-top: 6px;
+}
+
+/* Equal-width KPI row inside the welcome banner. Scoped to this page so it
+   cannot inherit Tableau's 6-column grid (which left empty space on the right). */
+
+.um-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.um-kpi-card {
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #cfc9c9;
+  border-radius: 16px;
+  box-shadow: 1.5px 2.99px 8.98px 0 rgba(100, 52, 248, 0.15);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.um-kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(19, 75, 74, 0.08);
+}
+
+
+.um-kpi-card:nth-child(2) .um-kpi-card__spark img{
+  width:85%;
+  margin-left: 15%;
+  object-fit: contain;
+}
+
+.um-kpi-card__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.um-kpi-card__icon {
+  width: 40px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+  border-radius: 4px;
+}
+
+.um-kpi-card__label {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #0a0a0a;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.um-kpi-card__metrics {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  min-width: 0;
+}
+
+.um-kpi-card__value {
+  margin: 0;
+  flex: 0 0 auto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  color: #0a0a0a;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+.um-kpi-card__spark {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 36px;
+}
+
+.um-kpi-card__spark img,
+.um-kpi-card__spark .sk {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 160px;
+  max-height: 48px;
+  object-fit: fill;
+  object-position: left center;
+}
+
+.um-kpi-card__change {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-family: 'Poppins', 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.um-kpi-card__change img {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+.um-kpi-card__change--up {
+  background: #d7fed9;
+  color: #000;
+}
+
+.um-kpi-card__change--down {
+  background: #ffdcdb;
+  color: #000;
+}
+
+.um-page .db-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+@media (max-width: 1400px) {
+  .um-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .um-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .um-page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ——— User List / Role Management cards ——— */
+.um-card {
+  padding: 24px;
+  border-radius: 8px;
+  border-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.um-card .db-card__header {
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.um-card__header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ——— Table specifics ——— */
+.um-table__checkbox-col {
+  width: 40px;
+  text-align: center !important;
+}
+
+.um-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #c7ccd1;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.um-checkbox:checked {
+  background: var(--db-teal);
+  border-color: var(--db-teal);
+}
+
+.um-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 1.6px 1.6px 0;
+  transform: rotate(45deg);
+}
+
+.um-id-link {
+  color: var(--db-teal);
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.um-row-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.um-row-action:hover {
+  background: rgba(19, 75, 74, 0.08);
+}
+
+.um-table td:last-child {
+  text-align: center;
+}
+
+.um-table th:last-child {
+  text-align: center;
+}
+.um-table__empty {
+  text-align: center !important;
+  color: #6b7280;
+  padding: 20px 12px !important;
+}
+
+/* ——— Pagination ——— */
+.um-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 4px 2px;
+  flex-wrap: wrap;
+}
+
+.um-pagination__text {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--db-teal);
+}
+
+.um-pagination__controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.um-pagination__btn {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  color: #4b5563;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.um-pagination__btn:hover:not(:disabled) {
+  background: #f9fafb;
+  border-color: #d1d5db;
+  color: #111827;
+}
+
+.um-pagination__btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.um-pagination__btn--nav {
+  padding: 0 12px;
+}
+
+.um-pagination__btn--active {
+  background: var(--db-teal);
+  border-color: var(--db-teal);
+  color: #fff;
+  font-weight: 600;
+}
+
+.um-pagination__btn--active:hover {
+  background: var(--db-teal) !important;
+  border-color: var(--db-teal) !important;
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .um-pagination {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ——— Skeleton ——— */
+.um-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.um-skeleton__status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.um-skel-welcome-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.um-skel-welcome-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.um-skel-table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eef0f0;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.um-skel-table__head,
+.um-skel-table__row {
+  display: grid;
+  grid-template-columns: 24px 0.8fr 1.1fr 1.3fr 0.9fr 1.1fr 40px;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 16px;
+  min-width: 640px;
+}
+
+.um-skel-table__head {
+  background: #f3f4f6;
+}
+
+.um-skel-table__row + .um-skel-table__row {
+  border-top: 1px solid #eef0f0;
+}
+
+.um-skel-pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.um-skel-pager-btns {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

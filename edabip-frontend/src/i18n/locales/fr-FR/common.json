@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "EDABIP",
+    "homeAria": "Accueil EDABIP"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "dashboard": "Tableau de bord",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "mainNav": "Navigation principale"
+  },
+  "actions": {
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "bookDemo": "Réserver une démo",
+    "startTrial": "Essai gratuit",
+    "subscribe": "S'abonner à la newsletter",
+    "loading": "Chargement…",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "continue": "Continuer",
+    "back": "Retour",
+    "close": "Fermer"
+  },
+  "language": {
+    "selectorLabel": "Langue",
+    "selectorAria": "Choisir la langue, langue actuelle {{code}}",
+    "menuLabel": "Langues disponibles",
+    "optionLabel": "{{label}} ({{short}})",
+    "selected": "Sélectionné"
+  },
+  "footer": {
+    "description": "Nous aidons les entreprises grâce aux données, à l'analytique et à l'IA pour stimuler la croissance et l'innovation.",
+    "platform": "Plateforme",
+    "solutions": "Solutions",
+    "resources": "Ressources",
+    "newsletter": "Newsletter",
+    "newsletterBlurb": "Restez informé des dernières analyses et mises à jour.",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "copyright": "© {{year}} EDABIP. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "platformLinks": {
+      "dataIntegration": "Intégration des données",
+      "dataWarehouse": "Entrepôt de données",
+      "powerBi": "Power BI",
+      "tableau": "Tableau",
+      "aiAnalytics": "Analytique IA"
+    },
+    "solutionLinks": {
+      "sales": "Analytique commerciale",
+      "financial": "Analytique financière",
+      "operations": "Analytique opérationnelle",
+      "marketing": "Analytique marketing",
+      "aiInsights": "Insights IA"
+    },
+    "resourceLinks": {
+      "documentation": "Documentation",
+      "caseStudies": "Études de cas",
+      "blog": "Blog",
+      "webinars": "Webinaires",
+      "support": "Centre d'assistance"
+    },
+    "social": {
+      "x": "EDABIP sur X",
+      "linkedin": "EDABIP sur LinkedIn",
+      "youtube": "EDABIP sur YouTube",
+      "instagram": "EDABIP sur Instagram"
+    },
+    "aria": {
+      "platform": "Liens plateforme",
+      "solutions": "Liens solutions",
+      "resources": "Liens ressources"
+    }
+  },
+  "states": {
+    "loading": "Chargement…",
+    "empty": "Rien à afficher pour le moment.",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  }
+}

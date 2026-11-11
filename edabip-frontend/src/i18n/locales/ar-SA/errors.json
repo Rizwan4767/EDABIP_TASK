@@ -1,0 +1,5 @@
+{
+  "generic": "Something went wrong. Please try again.",
+  "localePreferenceUpdateFailed": "We couldn't save your language preference. Please try again.",
+  "network": "Network error. Check your connection and try again."
+}

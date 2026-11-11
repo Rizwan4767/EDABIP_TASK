@@ -1,0 +1,12 @@
+<svg viewBox="0 0 272 272" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Enhanced arrow icon</title>
+  <defs>
+    <filter id="dropShadow" x="0" y="0" width="272" height="272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="8" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <g filter="url(#dropShadow)">
+    <circle cx="136" cy="120" r="120" fill="#FFFFFF"/>
+    <path d="M113.044 60L164 120L113.044 180L104 169.35L145.911 120L104 70.65L113.044 60Z" fill="#003B3D"/>
+  </g>
+</svg>

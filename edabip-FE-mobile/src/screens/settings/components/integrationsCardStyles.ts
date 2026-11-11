@@ -1,0 +1,57 @@
+import { StyleSheet } from 'react-native';
+
+export const integrationsCardStyles = StyleSheet.create({
+  search: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    borderWidth: 1,
+    borderColor: 'rgba(0,0,0,0.16)',
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    minHeight: 40,
+    backgroundColor: '#FFFFFF',
+  },
+  input: {
+    flex: 1,
+    fontSize: 13,
+    lineHeight: 18,
+    paddingVertical: 8,
+    backgroundColor: 'transparent',
+  },
+  list: { gap: 10 },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    minHeight: 48,
+  },
+  logo: {
+    width: 28,
+    height: 28,
+    overflow: 'hidden',
+  },
+  name: { flex: 1, fontSize: 13, lineHeight: 18, color: '#374151' },
+  pill: {
+    minWidth: 78,
+    height: 24,
+    borderRadius: 999,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 12,
+    backgroundColor: '#FFFFFF',
+  },
+  pillActive: { borderColor: '#1B7A0C' },
+  pillInactive: { borderColor: '#DD2D30' },
+  pillLabel: {
+    fontSize: 12,
+    lineHeight: 16,
+    fontWeight: '600',
+    textTransform: 'none',
+    letterSpacing: 0,
+  },
+  pillLabelActive: { color: '#1B7A0C' },
+  pillLabelInactive: { color: '#DD2D30' },
+  empty: { paddingVertical: 8 },
+});

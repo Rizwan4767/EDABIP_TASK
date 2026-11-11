@@ -1,0 +1,1017 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap");
+
+:root {
+  --bd-blue: #0758c9;
+  --bd-blue-light: #dceeff;
+  --bd-signup-blue: #044fc7;
+  --bd-border-dark: #26303f;
+  --bd-text-dark: #0d1526;
+  --bd-text-muted: #71809e;
+
+  /* Fluid interpolation progress: 0 at a 360px phone up to 1 at 1400px
+     (the width the two-column hero needs to fit, see .bd-row breakpoint
+     below). Every size/spacing/font that should scale smoothly toward
+     the exact Figma value multiplies a MIN..MAX range by this instead of
+     jumping between fixed values at a breakpoint. Clamped so it never
+     exceeds Figma's spec (>=1400px) or drops below the chosen floor
+     (<=360px). */
+  --bd-fluid: clamp(0, calc((100vw - 360px) / 1040px), 1);
+}
+
+.book-demo-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f7f9ff;
+  overflow-x: clip;
+}
+
+/* =========================================================
+   TOP MENU  (page top = 97px)
+   ========================================================= */
+
+.bd-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: calc(66px + 31px * var(--bd-fluid)); /* 66..97 */
+  background: rgba(248, 248, 255, 0.97);
+  border-bottom: 1px solid rgba(30, 64, 175, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.bd-header-inner {
+  width: min(1440px, 100%);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 calc(20px + 64px * var(--bd-fluid)); /* 20..84 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo — 143 x 56 */
+.bd-logo {
+  display: inline-flex;
+  align-items: center;
+  width: calc(98px + 45px * var(--bd-fluid)); /* 98..143 */
+  height: calc(38px + 18px * var(--bd-fluid)); /* 38..56 */
+}
+
+.bd-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bd-header-actions {
+  display: flex;
+  align-items: center;
+  gap: calc(8px + 6px * var(--bd-fluid)); /* 8..14 */
+}
+
+/* Buttons — hug, radius 5, pad 8/30, gap 6 */
+.bd-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: calc(29px + 4px * var(--bd-fluid)); /* 29..33 */
+  padding: calc(6px + 2px * var(--bd-fluid)) calc(16px + 14px * var(--bd-fluid)); /* 6..8 / 16..30 */
+  border-radius: 5px;
+  border: 1px solid var(--bd-border-dark);
+  font-family: "Inter", sans-serif;
+  font-size: calc(12px + 2px * var(--bd-fluid)); /* 12..14 */
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 180ms ease;
+}
+
+.bd-btn--login {
+  color: var(--bd-border-dark);
+  background: #ffffff;
+}
+
+.bd-btn--signup {
+  color: #ffffff;
+  background: var(--bd-signup-blue);
+  border-color: rgba(38, 48, 63, 0.5);
+}
+
+.bd-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   HERO  (Frame 2147237286 — hug, gap 96, top 173, left 84)
+   ========================================================= */
+
+.bd-hero {
+  position: relative;
+  width: 100%;
+  padding:
+    calc(36px + 40px * var(--bd-fluid)) /* 36..76 */
+    calc(20px + 64px * var(--bd-fluid)) /* 20..84 */
+    calc(44px + 52px * var(--bd-fluid)); /* 44..96 */
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.bd-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  pointer-events: none;
+}
+
+.bd-row {
+  position: relative;
+  z-index: 1;
+  width: min(1222px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: calc(28px + 68px * var(--bd-fluid)); /* 28..96 */
+}
+
+/* Frame 2147237285 — fixed 592, gap 45.
+   flex-grow is weighted 592:534 (the Figma ratio) against .bd-card so the
+   two columns shrink together proportionally as the row narrows, instead
+   of each staying pinned to its exact px width until a breakpoint forces
+   a hard stack. min-width is the floor before it's more readable to wrap
+   to its own line than keep shrinking. */
+.bd-col-left {
+  flex: 592 1 300px;
+  min-width: 300px;
+  max-width: 592px;
+  display: flex;
+  flex-direction: column;
+  gap: calc(24px + 21px * var(--bd-fluid)); /* 24..45 */
+}
+
+/* Frame 2147237263 — fixed 524, gap 29 (intro block + points row) */
+.bd-copy {
+  width: 524px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(16px + 13px * var(--bd-fluid)); /* 16..29 */
+}
+
+/* Frame 2147237261 — fixed 450, gap 16 (eyebrow + title group) */
+.bd-intro {
+  width: 450px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(10px + 6px * var(--bd-fluid)); /* 10..16 */
+}
+
+/* Frame 1000006269 — hug 125 x fixed 25, radius 50, pad 3/16/3/18 */
+.bd-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: calc(22px + 3px * var(--bd-fluid)); /* 22..25 */
+  padding: 3px calc(12px + 4px * var(--bd-fluid)) 3px calc(14px + 4px * var(--bd-fluid)); /* 12..16 / 14..18 */
+  gap: 10px;
+  border-radius: 50px;
+  color: #1e4ae3;
+  background: #e3e9fe;
+  font-family: "Manrope", sans-serif;
+  font-size: calc(12px + 2px * var(--bd-fluid)); /* 12..14 */
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+/* Frame 2147237260 — fill 450, hug height, gap 7 */
+.bd-title-group {
+  width: 450px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(4px + 3px * var(--bd-fluid)); /* 4..7 */
+}
+
+.bd-title {
+  margin: 0;
+  color: #080808;
+  font-family: "Inter", "DM Sans", sans-serif;
+  font-size: calc(32px + 32px * var(--bd-fluid)); /* 32..64 */
+  line-height: 1.12;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.bd-title span {
+  font-weight: 800;
+  background: linear-gradient(90deg, #655cff 0%, #7757ff 48%, #9659f4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bd-subtitle {
+  margin: 0;
+  width: 450px;
+  max-width: 100%;
+  color: #616592;
+  font-family: "Inter", sans-serif;
+  font-size: calc(14px + 2px * var(--bd-fluid)); /* 14..16 */
+  font-weight: 600;
+  line-height: calc(22px + 5px * var(--bd-fluid)); /* 22..27 */
+}
+/* Frame 2147237262 — fill 524, hug height 51, gap 27 */
+.bd-points {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: calc(14px + 13px * var(--bd-fluid)); /* 14..27 */
+}
+
+/* Each pill — hug width, fixed height 51 */
+.bd-point {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 51px;
+  color: #42578b;
+  font-family: "Inter", sans-serif;
+  font-size: calc(12px + 2px * var(--bd-fluid)); /* 12..14 */
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.bd-point span:last-child {
+  flex: 0 0 auto;
+  white-space: normal;
+}
+
+/* The source SVGs (personalized.svg, Session.svg, commitment.svg) already
+   bake in their own circle background at full size — drawing a second
+   circle here and shrinking the whole SVG down to icon-only size nested
+   two mismatched circles inside each other, making the glyph look tiny.
+   The <img> below is the full circle+icon graphic, so this is just a
+   sizing box, no background/radius of its own. */
+.bd-point-icon {
+  width: calc(34px + 10px * var(--bd-fluid)); /* 34..44 */
+  height: calc(34px + 10px * var(--bd-fluid)); /* 34..44 */
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bd-point-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Illustration — 592 x 395 */
+.bd-illustration {
+  width: 592px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 592 / 395;
+  display: block;
+  object-fit: contain;
+}
+
+/* =========================================================
+   CARD  (Frame 2147237284 — fixed 534, radius 10,
+   border #000 30%, padding 35, gap 24, bg #fff)
+   ========================================================= */
+
+.bd-card {
+  flex: 534 1 340px;
+  min-width: 340px;
+  max-width: 534px;
+  height: 811px;
+  padding: calc(18px + 17px * var(--bd-fluid)); /* 18..35 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(14px + 10px * var(--bd-fluid)); /* 14..24 */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Frame 2147237283 — fixed 434, gap 58 */
+.bd-card-top {
+  width: 434px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(28px + 30px * var(--bd-fluid)); /* 28..58 */
+}
+
+/* Frame 2147237265 — fixed 279.62, gap 19 */
+.bd-form-header {
+  width: 280px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(12px + 7px * var(--bd-fluid)); /* 12..19 */
+  text-align: center;
+}
+
+/* Group 1000006339 — 42.46 x 41.
+   calender.svg already bakes in its own circle background at full size —
+   see the same note on .bd-point-icon above. */
+.bd-form-icon {
+  width: calc(32px + 10px * var(--bd-fluid)); /* 32..42 */
+  height: calc(31px + 10px * var(--bd-fluid)); /* 31..41 */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bd-form-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Frame 2147237264 — fill width, gap 9 */
+.bd-form-header-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(6px + 3px * var(--bd-fluid)); /* 6..9 */
+}
+
+/* "Schedule Your Demo" — Inter SemiBold 600, 18px, line-height 20, color #0A164E */
+.bd-form-header-text h2 {
+  margin: 0;
+  color: #0a164e;
+  font-family: "Inter", sans-serif;
+  font-size: calc(16px + 2px * var(--bd-fluid)); /* 16..18 */
+  line-height: 20px;
+  font-weight: 600;
+}
+
+/* Subtitle — Inter Regular 400, 11px, line-height 20, color #7B88A6 */
+.bd-form-header-text p {
+  margin: 0;
+  color: #7b88a6;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Frame 2147237282 — fill 434, hug 428, gap 11
+   (gap to header above is handled by .bd-card-top's own gap: 58px) */
+.bd-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(8px + 3px * var(--bd-fluid)); /* 8..11 */
+}
+
+/* Frame 2147237272 / 2147237271 / 2147237278 — fill 434, hug 55, gap 38 */
+.bd-field-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: calc(16px + 22px * var(--bd-fluid)); /* 16..38 */
+}
+
+/* Frame 2147237266/267/268/269/273/274/275/276/277 — hug 55, gap 3 */
+.bd-field {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+/* Label — Inter Regular 400, 12px, line-height 20, color #000000 */
+.bd-field label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.bd-label-icon {
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+  margin-right: 6px;
+}
+
+.bd-required {
+  color: #d93a3a;
+  margin-left: 3px;
+}
+
+.bd-input-wrap,
+.bd-select-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.bd-input-wrap img {
+  position: absolute;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Preferred Date / Preferred Time icons render solid/dark in Figma, not
+   dimmed like the other field icons */
+.bd-input-wrap--datetime img {
+  opacity: 0.85;
+}
+
+/* Native date/time inputs render their own "dd-mm-yyyy" / "--:--" format
+   and ignore the placeholder attribute, plus draw a light picker glyph on
+   the right that doesn't match the design. The field is type="text" until
+   focused/filled (see BookDemo.jsx), so this only affects the moment the
+   native control is actually active. */
+.bd-input-wrap input[type="date"]::-webkit-calendar-picker-indicator,
+.bd-input-wrap input[type="time"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.bd-input-wrap input[type="date"],
+.bd-input-wrap input[type="time"] {
+  cursor: pointer;
+}
+
+/* Input rectangles — radius 2.5px, border 1px #E3EAFA, fill #FFFFFF */
+.bd-input-wrap input {
+  width: 100%;
+  height: 32px;
+  padding: 0 12px 0 38px;
+  border: 1px solid #e3eafa;
+  border-radius: 2.5px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.bd-select-wrap select {
+  width: 100%;
+  height: 32px;
+  padding: 0 34px 0 12px;
+  border: 1px solid #e3eafa;
+  border-radius: 2.5px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+/* weui:arrow-outlined — 8.56 x 17.11, rotated -89.04deg */
+.bd-select-chevron {
+  position: absolute;
+  right: 14px;
+  width: 9px;
+  height: 9px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Rectangle 1000001795 (Message) — 438 x 75, radius 2.5px, border 1px #E3EAFA, fill #FFFFFF */
+.bd-field textarea {
+  width: 100%;
+  min-height: 75px;
+  padding: 12px;
+  border: 1px solid #e3eafa;
+  border-radius: 2.5px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  resize: vertical;
+  outline: none;
+}
+
+/* Placeholders — Inter Regular 400, 10px, color #525866
+   (the select's own text is styled the same way, since its default
+   "Select option" state reads visually as a placeholder) */
+.bd-input-wrap input::placeholder,
+.bd-field textarea::placeholder,
+.bd-select-wrap select {
+  color: #525866;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.bd-input-wrap input:focus,
+.bd-select-wrap select:focus,
+.bd-field textarea:focus {
+  border-color: var(--bd-blue);
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(7, 88, 201, 0.12);
+}
+
+.bd-input-wrap input[aria-invalid="true"] {
+  border-color: #d93a3a;
+}
+
+.bd-field-error {
+  margin-top: 5px;
+  color: #c62828;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+}
+
+/* Frame 2147237281 — fixed 374, hug 102, gap 20
+   Contains: bd-submit-group (button + safe-note, gap 11) + bd-support-note */
+.bd-actions {
+  width: 374px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(12px + 8px * var(--bd-fluid)); /* 12..20 */
+}
+
+/* Frame 2147237279 — fill 374, hug 62, gap 11 */
+.bd-submit-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(8px + 3px * var(--bd-fluid)); /* 8..11 */
+}
+
+/* Frame 2147237270 — fill 374, fixed height 31, radius 2.5, pad 5/22, gap 10, bg #277EFF */
+.bd-submit {
+  width: 100%;
+  height: calc(30px + 1px * var(--bd-fluid)); /* 30..31 */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: calc(4px + 1px * var(--bd-fluid)) calc(14px + 8px * var(--bd-fluid)); /* 4..5 / 14..22 */
+  border: 0;
+  border-radius: 2.5px;
+  color: #ffffff;
+  background: #277eff;
+  font-family: "Manrope", "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.bd-submit:hover:not(:disabled) {
+  transform: translateY(-1px);
+  background: #1f6ae0;
+}
+
+.bd-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.bd-submit-arrow {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* Group 1000006356 — lock icon + text, 351.08 x 20 */
+.bd-safe-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(5px + 2px * var(--bd-fluid)); /* 5..7 */
+  margin: 0;
+  color: #525866;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.bd-safe-note img {
+  width: 14.25px;
+  height: 14.25px;
+  object-fit: contain;
+}
+
+/* Frame 2147237280 — icon + "Need help? Contact our IT Support", hug 180 x 20, gap 4 */
+.bd-support-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  color: #525866;
+  font-family: "Manrope", "Inter", sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bd-support-note img {
+  width: 11px;
+  height: 13px;
+  object-fit: contain;
+}
+
+.bd-support-note a {
+  color: var(--bd-blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bd-support-note a:hover {
+  text-decoration: underline;
+}
+
+.bd-success {
+  padding: 24px 8px;
+  text-align: center;
+}
+
+.bd-success h3 {
+  margin: 0 0 8px;
+  color: var(--bd-text-dark);
+  font-family: "DM Sans", "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.bd-success p {
+  margin: 0;
+  color: var(--bd-text-muted);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   RESPONSIVE — HEADER / HERO / CARD
+   ========================================================= */
+
+/* No hard breakpoint for the row-to-stack transition: .bd-col-left and
+   .bd-card use flex-grow weighted to the Figma 592:534 ratio (see their
+   rules above) so they shrink together proportionally as the row narrows,
+   and wrap naturally via flex-wrap once they'd drop below their min-width
+   floor — no viewport width needs to be hardcoded or kept in sync here. */
+
+@media (max-width: 640px) {
+  .bd-points {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bd-point {
+    height: auto;
+    white-space: normal;
+  }
+
+  .bd-point span:last-child {
+    width: auto !important;
+  }
+
+  .bd-header-actions .bd-btn--login {
+    display: none;
+  }
+
+  .bd-field-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================
+   FOOTER  
+   ========================================================= */
+
+.bd-footer {
+  width: 100%;
+  padding: 52px clamp(32px, 3.6vw, 62px) 22px;
+  color: #ffffff;
+  background: #000e3a;
+}
+
+.bd-footer-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bd-footer-main {
+  display: grid;
+  grid-template-columns:
+    minmax(220px, 1.3fr)
+    repeat(3, minmax(130px, 0.8fr))
+    minmax(220px, 1fr);
+  align-items: start;
+  gap: clamp(32px, 4vw, 68px);
+  padding-bottom: 34px;
+}
+
+.bd-footer-brand {
+  min-width: 0;
+}
+
+.bd-footer-brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #2d7dff;
+  font-family: "DM Sans", "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.bd-footer-brand-logo img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.bd-footer-brand-description {
+  max-width: 220px;
+  margin: 24px 0 28px;
+  color: #909bb5;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.bd-footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bd-footer-social-link {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #c8d1e6;
+  border: 1px solid #7e89a7;
+  border-radius: 50%;
+  text-decoration: none;
+  transition:
+    color 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.bd-footer-social-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.bd-footer-social-link:hover {
+  color: #ffffff;
+  border-color: #2e7dff;
+  background: rgba(46, 125, 255, 0.16);
+  transform: translateY(-2px);
+}
+
+.bd-footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.bd-footer-column h3,
+.bd-footer-newsletter h3 {
+  margin: 0 0 13px;
+  color: #2f7fff;
+  font-family: "DM Sans", "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.bd-footer-column a {
+  color: #f1f3f9;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.bd-footer-column a:hover {
+  color: #5d9cff;
+}
+
+.bd-footer-newsletter {
+  min-width: 0;
+  padding-left: 56px;
+  margin-top: 8px;
+  border-left: 1px solid #bcbcbc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 175px;
+}
+
+.bd-footer-newsletter h3 {
+  color: #ffffff;
+}
+
+.bd-footer-newsletter > p {
+  max-width: 210px;
+  margin: 0 0 24px;
+  color: #e5e8f0;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.bd-footer-newsletter-form {
+  width: 100%;
+  max-width: 246px;
+  height: 34px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 34px;
+  overflow: hidden;
+  border: 1px solid #697794;
+  border-radius: 4px;
+}
+
+.bd-footer-newsletter-form input {
+  min-width: 0;
+  width: 100%;
+  padding: 0 10px;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  background: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+}
+
+.bd-footer-newsletter-form input::placeholder {
+  color: #aab2c4;
+  opacity: 1;
+}
+
+.bd-footer-newsletter-form button {
+  border: 0;
+  color: #b7c2da;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.bd-footer-newsletter-form:focus-within {
+  border-color: #2f7fff;
+  box-shadow: 0 0 0 2px rgba(47, 127, 255, 0.15);
+}
+
+.bd-footer-bottom {
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid #4067a9;
+}
+
+.bd-footer-bottom p,
+.bd-footer-bottom a {
+  margin: 0;
+  color: #8791a9;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.bd-footer-legal-links {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.bd-footer-bottom a:hover {
+  color: #ffffff;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+}
+
+@media (max-width: 1100px) {
+  .bd-footer-main {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .bd-footer-brand {
+    grid-column: span 2;
+  }
+
+  .bd-footer-newsletter {
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .bd-footer {
+    padding: 46px 24px 24px;
+  }
+
+  .bd-footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 38px 28px;
+  }
+
+  .bd-footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .bd-footer-newsletter {
+    grid-column: 1 / -1;
+  }
+
+  .bd-footer-newsletter-form {
+    max-width: 360px;
+  }
+
+  .bd-footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .bd-footer-main {
+    grid-template-columns: 1fr;
+  }
+
+  .bd-footer-brand,
+  .bd-footer-newsletter {
+    grid-column: auto;
+  }
+
+  .bd-footer-column {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .bd-footer-legal-links {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bd-footer-social-link,
+  .bd-footer-column a {
+    transition: none;
+  }
+
+  .bd-footer-social-link:hover {
+    transform: none;
+  }
+}

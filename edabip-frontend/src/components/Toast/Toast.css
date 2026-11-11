@@ -1,0 +1,163 @@
+.toast {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+
+  width: 460px;
+  max-width: calc(100vw - 32px);
+  min-height: 68px;
+  height: auto;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+
+  padding: 12px 40px 12px 16px;
+
+  border: 2px solid;
+  border-radius: 4px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  z-index: 9999;
+
+  animation: slideIn 0.3s ease-out;
+}
+
+.toast-error {
+  background: #FDECEB;
+  border-color: #FF2A2E;
+}
+
+.toast-success {
+  background: #EAFaf0;
+  border-color: #A8E6C1;
+}
+
+.toast-info {
+  background: #EAF3FD;
+  border-color: #A8CDF0;
+}
+
+.toast-icon {
+  width: 34px;
+  height: 34px;
+
+  flex: 0 0 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 2px;
+}
+
+.toast-icon img {
+  width: 22px;
+  height: 19px;
+
+  object-fit: contain;
+  display: block;
+}
+
+.toast-content {
+  flex: 1;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 0;
+}
+
+.toast-title {
+  margin: 0;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+
+  line-height: 20px;
+  letter-spacing: 0;
+
+  color: #000000;
+  overflow-wrap: anywhere;
+}
+
+.toast-message {
+  margin: 4px 0 0;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  line-height: 20px;
+  letter-spacing: 0;
+
+  color: #6b7280;
+  overflow-wrap: anywhere;
+}
+
+.toast-close {
+  position: absolute;
+
+  top: 4px;
+  right: 4px;
+
+  width: 20px;
+  height: 20px;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border: none;
+
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+
+  color: #4F4F4F;
+
+  cursor: pointer;
+
+  z-index: 10;
+
+  opacity: 0.8;
+}
+
+.toast-close:hover {
+  opacity: 1;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 600px) {
+  .toast {
+    top: 16px;
+    right: 16px;
+    left: 16px;
+
+    width: auto;
+  }
+}

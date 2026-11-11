@@ -1,0 +1,215 @@
+{
+  "header": {
+    "tryNow": "Sign Up"
+  },
+  "hero": {
+    "eyebrow": "EDABIP platform categories",
+    "pills": {
+      "data": "Data Process",
+      "ai": "AI Analysis Platform",
+      "visualization": "Visualization Insights"
+    },
+    "title": "Transform Enterprise Data<br />into <accent>Intelligent</accent> Decision",
+    "description": "Unify your enterprise data, analytics, and AI to make faster, smarter business<br /> decisions with a single intelligent platform.",
+    "requestDemo": "Request Demo",
+    "getStarted": "Get Started",
+    "proofAria": "Platform benefits",
+    "proof": {
+      "monitoring": "Real Time KPI Monitoring",
+      "processing": "Enterprise Data Processing",
+      "security": "Secure by Design"
+    },
+    "visualAlt": "Connected enterprise data flowing through EDABIP"
+  },
+  "platform": {
+    "title": "Platform Overview",
+    "subtitle": "Everything you need to make your business smarter and faster",
+    "previous": "Show previous platform stage",
+    "next": "Show next platform stage",
+    "stages": {
+      "centralized": {
+        "title": "Connect Your Data",
+        "text": "Integrate data from ERP, CRM, HRMS, Finance, APIs, cloud platforms, and databases into a unified analytics ecosystem.",
+        "panelTitle": "Data Sources",
+        "items": {
+          "i1": "100+ Data Connectors",
+          "i2": "Cloud & On-Premise",
+          "i3": "Real-Time Data Sync",
+          "i4": "API Integration",
+          "i5": "Secure Connections"
+        }
+      },
+      "process": {
+        "title": "Prepare & Transform",
+        "text": "Clean, validate, enrich, and transform raw data into reliable datasets using powerful ETL and data processing pipelines.",
+        "panelTitle": "Data Processing",
+        "items": {
+          "i1": "Data Cleansing",
+          "i2": "Data Validation",
+          "i3": "ETL Pipelines",
+          "i4": "Data Enrichment"
+        }
+      },
+      "visualize": {
+        "title": "Visualize Business Insights",
+        "text": "Create interactive dashboards and monitor key business metrics with powerful visual analytics and executive reporting.",
+        "panelTitle": "Analytics Engine",
+        "items": {
+          "i1": "Interactive Dashboards",
+          "i2": "KPI Monitoring",
+          "i3": "Power BI",
+          "i4": "Tableau",
+          "i5": "Executive Reports"
+        }
+      },
+      "ai": {
+        "title": "AI-Powered Analytics",
+        "text": "Leverage predictive analytics and machine learning to forecast trends, detect anomalies, and generate intelligent recommendations.",
+        "panelTitle": "AI Features",
+        "items": {
+          "i1": "Predictive Analytics",
+          "i2": "Trend Forecasting",
+          "i3": "Anomaly Detection",
+          "i4": "Smart Recommendations"
+        }
+      },
+      "collaborate": {
+        "title": "Collaborate & Automate",
+        "text": "Share reports, schedule automated dashboards, receive real-time alerts, and enable collaboration across teams.",
+        "panelTitle": "Collaboration Tools",
+        "items": {
+          "i1": "Automated Reports",
+          "i2": "Smart Alerts",
+          "i3": "Workflow Automation",
+          "i4": "Team Collaboration"
+        }
+      }
+    }
+  },
+  "modular": {
+    "title": "Modular Ecosystem",
+    "subtitle": "Enable your teams with powerful modules that fit your business needs. Precision-engineered components designed for enterprise-scale operations.",
+    "enterpriseCore": "Enterprise Core",
+    "configure": "Configure View",
+    "lastGenerated": "Last generated 2h ago",
+    "items": {
+      "dashboard": {
+        "title": "Dashboards",
+        "text": "Gain complete visibility into your enterprise with interactive dashboards, real-time analytics, and AI-powered insights. Monitor key performance indicators, uncover trends, and make faster, data-driven decisions from a single unified platform."
+      },
+      "reports": {
+        "title": "Reports",
+        "text": "Automated PDF and XLS exports for scheduled compliance and performance audits."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "text": "Deep-dive engine for multi-dimensional data exploration and predictive testing. Leverage AI-driven insights to uncover hidden patterns."
+      },
+      "alerts": {
+        "title": "Alerts",
+        "text": "Smart notification system with multi-channel routing (Slack, SMS, Email). Never miss a critical threshold breach with intelligent escalation."
+      },
+      "userManagement": {
+        "title": "User Management",
+        "text": "Advanced SSO and directory sync for enterprise-scale organization structures. Granular RBAC and audit logging included."
+      }
+    }
+  },
+  "lifecycle": {
+    "eyebrow": "Core Architecture",
+    "title": "The EDABIP Lifecycle",
+    "subtitle": "From raw data to actionable insights through a precision-engineered process designed for enterprise scale.",
+    "phase": "Phase {{number}}",
+    "explore": "Explore Algorithms",
+    "tags": {
+      "api": "API Connectors",
+      "etl": "ETL Pipelines",
+      "ai": "AI Integrity Shield Active"
+    },
+    "steps": {
+      "dataCollection": {
+        "title": "Data Collection",
+        "text": "Gather high-velocity streams from multiple distributed sources including IoT, CRM, and legacy silos."
+      },
+      "processData": {
+        "title": "Process Data",
+        "text": "Transform raw data into trusted business intelligence with EDABIP's intelligent data preparation engine. Automatically cleanse, validate, normalize, and enrich data from multiple enterprise sources while eliminating inconsistencies and duplicates. Advanced ETL pipelines and real-time processing ensure every dataset is accurate, analytics-ready, and optimized for dashboards, reporting, and AI-powered insights."
+      },
+      "aiAnalysis": {
+        "title": "AI Analysis",
+        "text": "Unlock deeper business intelligence with EDABIP's AI-powered analytics engine. Discover hidden patterns, forecast future trends, and detect anomalies using advanced machine learning and predictive models. Turn complex enterprise data into actionable insights that enable faster, smarter, and more confident decision-making."
+      },
+      "visualizeInsights": {
+        "title": "Visualize Insights",
+        "text": "Transform complex enterprise data into intuitive, interactive dashboards designed for executive decision-making. Visualize key performance indicators, monitor business trends, and explore data through customizable charts, graphs, and reports."
+      },
+      "businessDecisions": {
+        "title": "Business Decisions",
+        "text": "Empower teams to make faster, smarter and data-backed decisions."
+      }
+    }
+  },
+  "sovereignty": {
+    "title": "Uncompromising <accent>Data</accent> Sovereignty",
+    "description": "Secure your enterprise intelligence with multi-layered architectural defense systems. We provide full visibility and ironclad control over your most sensitive analytical assets.",
+    "explore": "Explore Security Framework",
+    "docs": "View Compliance Docs",
+    "visualAlt": "Digital shield protecting globally connected enterprise data"
+  },
+  "pillars": {
+    "title": "The Four Pillars of Sovereignty",
+    "subtitle": "Our zero-trust architecture ensures that your data remains yours, from the moment of ingestion to the final insight.",
+    "learnMore": "View More",
+    "tags": {
+      "fido": "FIDO2 & BIOMETRIC READY",
+      "aes": "AES-256 STANDARD",
+      "permissions": "GRANULAR PERMISSIONS",
+      "blockchain": "BLOCKCHAIN VERIFIED"
+    },
+    "items": {
+      "mfa": {
+        "title": "MFA Authentication",
+        "text": "Identity-first security with biometric and FIDO2 hardware token support across all endpoints."
+      },
+      "encryption": {
+        "title": "E2EE Encryption",
+        "text": "Military-grade AES-256 standards applied to data both at rest and in active transit."
+      },
+      "rbac": {
+        "title": "RBAC Control",
+        "text": "Precision attribute-based access control (ABAC) down to the individual cell level."
+      },
+      "audit": {
+        "title": "Immutable Audit Logs",
+        "text": "Tamper-proof, blockchain-verified tracking of every single user and system interaction."
+      }
+    }
+  },
+  "footer": {
+    "ctaTitle": "Insights for decision makers",
+    "ctaDescription": "Join 25,000+ BI professionals receiving our weekly enterprise data brief.",
+    "emailLabel": "Business email",
+    "emailPlaceholder": "Enter your business email",
+    "subscribe": "Subscribe Now",
+    "copyright": "© 2026 EDABIP. Enterprise Data Analytics & Business Intelligence Platform.",
+    "platform": "Platform",
+    "solutions": "Solutions",
+    "connect": "Connect Us",
+    "platformLinks": {
+      "overview": "Feature",
+      "modules": "Dashboard",
+      "lifecycle": "Integration",
+      "security": "Security"
+    },
+    "solutionLinks": {
+      "industry": "By Industry",
+      "function": "By Department",
+      "useCases": "Use Cases",
+      "aiAnalytics": "AI Analytics"
+    },
+    "contactLinks": {
+      "website": "Visit the EDABIP website",
+      "email": "Email the EDABIP team"
+    }
+  }
+}
